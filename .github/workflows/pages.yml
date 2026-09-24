@@ -1,0 +1,76 @@
+name: Build, validate and deploy opportunities
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pages-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+          cache: pip
+          cache-dependency-path: |
+            requirements.txt
+            requirements-dev.txt
+      - uses: quarto-dev/quarto-actions/setup@v2
+        with:
+          version: '1.6.43'
+      - name: Install build and browser dependencies
+        run: |
+          python -m pip install -r requirements-dev.txt
+          python -m playwright install --with-deps chromium
+      - name: Validate metadata and the canonical logo
+        run: python scripts/build.py validate
+      - name: Render website, generate every PDF and check the complete output
+        run: python scripts/build.py build
+      - name: Test validation safeguards
+        run: python -m unittest discover -s tests -v
+      - name: Check desktop, mobile, search, links and downloads
+        run: python scripts/check_browser.py
+      - name: Save reviewable build and QA evidence
+        uses: actions/upload-artifact@v4
+        with:
+          name: website-and-qa
+          path: |
+            _site/
+            test-results/
+          include-hidden-files: true
+      - name: Configure GitHub Pages
+        if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+        uses: actions/configure-pages@v5
+      - name: Upload production site
+        if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy verified output
+        id: deployment
+        uses: actions/deploy-pages@v4
