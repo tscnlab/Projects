@@ -26,7 +26,15 @@ en:
   paused: Enquiries paused
   closed: Currently closed
   jobs_status: There are currently no advertised job vacancies.
-  nav: [Join, Student projects, Jobs, About, Expectations, Funding, How to apply]
+  nav:
+    home: Join!
+    about: About
+    expectations: Expectations
+    opportunities: Opportunities
+    jobs: Jobs
+    student_projects: BSc/MSc projects and research internships
+    funding: External funding
+    apply: How to apply
   about: |
     The Translational Sensory & Circadian Neuroscience Unit (MPS/TUM/TUMCREATE) investigates how light, sensory experience and biological rhythms affect human physiology, behaviour and health. Methods include human experiments, environmental measurement, evidence synthesis and social research.
 
@@ -154,4 +162,12 @@ de:
   enquiry: Anfragen willkommen
   paused: Anfragen pausiert
   closed: Derzeit geschlossen
-  nav: [Einstieg, Studienprojekte, Stellen, Über uns, Erwartungen, Finanzierung, Bewerbung]
+  nav:
+    home: Einstieg!
+    about: Über uns
+    expectations: Erwartungen
+    opportunities: Möglichkeiten
+    jobs: Stellen
+    student_projects: BSc/MSc-Projekte und Forschungspraktika
+    funding: Externe Finanzierung
+    apply: Bewerbung

@@ -26,10 +26,26 @@ function Pandoc(doc)
     for _, v in ipairs(values) do local s = stringify(v); table.insert(out, lang == 'de' and names[s] or s) end
     return table.concat(out, ' · ')
   end
-  local nav = ''
-  local paths = {'/', '/student-projects.html', '/jobs.html', '/about.html', '/expectations.html', '/funding.html', '/apply.html'}
-  for i, name in ipairs(t.nav) do nav = nav .. '<a href="' .. paths[i] .. '">' .. esc(name) .. '</a>' end
-  local header = '<a class="skip-link" href="#page-content">' .. (lang == 'de' and 'Zum Inhalt' or 'Skip to content') .. '</a><header class="site-header"><a class="brand" href="/" aria-label="' .. esc(shared.unit_name) .. ' - ' .. esc(t.nav[1]) .. '"><img src="/assets/tscn-logo.png" width="7660" height="1451" alt="' .. esc(shared.unit_name) .. '"></a><nav class="site-nav" aria-label="' .. (lang == 'de' and 'Hauptnavigation' or 'Main navigation') .. '">' .. nav .. '</nav></header>'
+  local input_name = quarto.doc.input_file:match('([^/]+)%.qmd$')
+  local current_path = input_name == 'index' and '/' or '/' .. input_name .. '.html'
+  if doc.meta.slug then current_path = '/projects/' .. stringify(doc.meta.slug) .. '/index.html' end
+  local function nav_link(key, path)
+    local current = current_path == path and ' aria-current="page"' or ''
+    return '<li><a href="' .. path .. '"' .. current .. '>' .. esc(t.nav[key]) .. '</a></li>'
+  end
+  -- A normal nested list keeps every destination visible without a menu toggle.
+  local nav = '<ul class="nav-list" role="list">'
+    .. nav_link('home', '/')
+    .. nav_link('about', '/about.html')
+    .. nav_link('expectations', '/expectations.html')
+    .. '<li class="nav-group"><span class="nav-group-label">' .. esc(t.nav.opportunities) .. '</span><ul class="nav-children" role="list">'
+    .. nav_link('jobs', '/jobs.html')
+    .. nav_link('student_projects', '/student-projects.html')
+    .. nav_link('funding', '/funding.html')
+    .. '</ul></li>'
+    .. nav_link('apply', '/apply.html')
+    .. '</ul>'
+  local header = '<a class="skip-link" href="#page-content">' .. (lang == 'de' and 'Zum Inhalt' or 'Skip to content') .. '</a><header class="site-header"><a class="brand" href="/" aria-label="' .. esc(shared.unit_name) .. ' - ' .. esc(t.nav.home) .. '"><img src="/assets/tscn-logo.png" width="7660" height="1451" alt="' .. esc(shared.unit_name) .. '"></a><nav class="site-nav" aria-label="' .. (lang == 'de' and 'Hauptnavigation' or 'Main navigation') .. '">' .. nav .. '</nav></header>'
   local footer = '<footer class="site-footer"><div class="footer-description"><p>' .. esc(t.about_short) .. '</p><p class="last-updated">' .. esc(t.updated_label) .. ': <time datetime="' .. esc(shared.last_updated) .. '">' .. esc(t.updated_date) .. '</time></p></div><div class="footer-links"><a href="' .. shared.mission_url .. '">' .. (lang == 'de' and 'Leitbild' or 'Mission statement') .. '</a><a href="' .. shared.lab_url .. '">' .. (lang == 'de' and 'Website ↗' or 'Unit website ↗') .. '</a><a href="' .. shared.contact_url .. '">' .. (lang == 'de' and 'Kontakt' or 'Contact') .. '</a></div></footer>'
   local result = pandoc.List({raw(header)})
   local slug = doc.meta.slug and stringify(doc.meta.slug)

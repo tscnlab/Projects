@@ -134,6 +134,9 @@ individually. Background metadata never asserts formal programme approval.
 - `shared/content.yml`: the full unit name, content update date, central expectations, funding, lab description,
   application guidance, contact addresses and English/German short versions.
 - `filters/layout.lua`: shared web page, project metadata and language-aware layout.
+  Navigation follows Join!, About, Expectations, Opportunities, How to apply.
+  Jobs, BSc/MSc projects and research internships, and External funding are
+  permanently visible under Opportunities, including on small screens and without JavaScript.
 - `assets/site.css` and `assets/search.js`: responsive presentation and progressive
   search. All cards and links remain available with JavaScript disabled.
 - `scripts/pdfs.py`: the shared PDF layout, using embedded Bitstream Vera fonts

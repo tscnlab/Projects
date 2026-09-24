@@ -82,6 +82,14 @@ def check():
                     page.goto(origin+route, wait_until='networkidle')
                     assert page.locator('h1').count() == 1, route
                     assert page.locator('main').count() == 1, route
+                    # Every navigation link must be available without opening a menu.
+                    nav_links = page.locator('.site-nav a')
+                    assert nav_links.count() == 7, route
+                    for link in nav_links.all():
+                        assert link.is_visible(), f'Hidden navigation link: {route}'
+                        box = link.bounding_box()
+                        assert box and box['x'] >= 0 and box['x'] + box['width'] <= width + 1, route
+                        assert box['y'] >= 0 and box['y'] + box['height'] <= height, f'Navigation outside initial viewport: {route}'
                     overflow = page.evaluate('document.documentElement.scrollWidth > innerWidth + 1')
                     assert not overflow, f'Horizontal overflow at {width}px: {route}'
                     broken = page.locator('img').evaluate_all('(imgs) => imgs.filter(i => !i.complete || !i.naturalWidth).map(i => i.src)')
@@ -113,7 +121,7 @@ def check():
             assert offline.url == (OUT / 'funding.html').as_uri()
             offline.get_by_role('link', name='contact us with your research idea and the programme you have in mind').click()
             assert offline.url == (OUT / 'apply.html').as_uri() + '#fellowships-and-research-visits'
-            offline.get_by_role('navigation').get_by_role('link', name='Join', exact=True).click()
+            offline.get_by_role('navigation').get_by_role('link', name='Join!', exact=True).click()
             assert offline.url == home_file
             offline.get_by_role('link', name='Browse projects').click()
             catalogue_file = (OUT / 'student-projects.html').as_uri()
@@ -127,7 +135,7 @@ def check():
             for filename, heading in [('about.html','About the unit'),('expectations.html','General expectations'),('funding.html','Funding and fellowships'),('jobs.html','Jobs')]:
                 offline.goto((OUT / filename).as_uri())
                 assert offline.locator('h1').inner_text() == heading
-                offline.get_by_role('navigation').get_by_role('link',name='Student projects',exact=True).click()
+                offline.get_by_role('navigation').get_by_role('link',name='BSc/MSc projects and research internships',exact=True).click()
                 assert offline.url == catalogue_file
             offline.goto((OUT / 'programmes.html').as_uri())
             offline.locator('.programme-list a').filter(has_text='Engineering').first.click()
