@@ -13,3 +13,17 @@ a[href^="mailto:"]{overflow-wrap:anywhere}
 
 .site-footer .last-updated{margin-top:12px;font-size:11px;color:var(--muted)}
 .footer-description{min-width:0}
+
+/* Entry routes share the existing typography and keep recruitment status visible. */
+.join-options{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:32px;border-top:1px solid var(--line);padding-top:30px}
+.join-option{min-width:0;display:flex;flex-direction:column}
+.join-option h2{font-size:28px;margin:0 0 16px}
+.join-option p{font-size:15px;color:var(--muted)}
+.join-option p:last-child{margin-top:auto;margin-bottom:0;padding-top:8px}
+.join-option a{font-size:14px;font-weight:600}
+.vacancy-status{border-left:3px solid #b9cecb;background:var(--wash);padding:22px 24px;margin-bottom:28px}
+.vacancy-status p{margin:0;font-weight:600}
+.text-page h3{font:600 18px/1.4 var(--sans);margin:28px 0 12px}
+.site-nav{flex-wrap:wrap;gap:10px 20px}
+@media(max-width:950px){.site-nav{gap:10px 22px}}
+@media(max-width:640px){.join-options{grid-template-columns:1fr;gap:26px;padding-top:26px}.join-option:not(:last-child){border-bottom:1px solid var(--line);padding-bottom:26px}.join-option h2{font-size:27px}.site-nav{justify-content:flex-start;gap:8px 18px}}

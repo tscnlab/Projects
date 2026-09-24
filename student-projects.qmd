@@ -1,0 +1,32 @@
+---
+title: BSc/MSc projects and research internships
+description: Student theses, research internships, Erasmus+ placements and engineering projects at the Translational Sensory & Circadian Neuroscience Unit (MPS/TUM/TUMCREATE).
+---
+
+::: {.home-hero}
+::: {.eyebrow}
+TÜBINGEN · MUNICH · REMOTE
+:::
+
+```{=html}
+<h1>BSc/MSc projects and research internships</h1>
+```
+
+::: {.hero-copy}
+Research on light, sleep and circadian rhythms. Projects include human experiments, evidence synthesis, engineering and social research. Scope and suitability for BSc or MSc requirements are agreed individually.
+:::
+
+::: {.hero-foot}
+Theses · Research internships · Erasmus+ placements · Engineering projects
+:::
+:::
+
+{{< include _generated/catalogue.md >}}
+
+::: {.invitation}
+## Suitable academic backgrounds
+
+Projects are suitable for students in health sciences, neuroscience, engineering, computing, education and the social sciences. Each advert lists relevant backgrounds and methods.
+
+[Projects by academic background →](programmes.qmd)
+:::

@@ -1,6 +1,6 @@
 ---
-title: Student research projects
-description: Master's theses, research internships, Erasmus+ placements and engineering projects at the Translational Sensory & Circadian Neuroscience Unit (MPS/TUM/TUMCREATE).
+title: Join the unit
+description: Student projects, jobs and external funding routes at the Translational Sensory & Circadian Neuroscience Unit (MPS/TUM/TUMCREATE).
 ---
 
 ::: {.home-hero}
@@ -9,24 +9,45 @@ TÜBINGEN · MUNICH · REMOTE
 :::
 
 ```{=html}
-<h1>Student research projects</h1>
+<h1>Join the unit</h1>
 ```
 
 ::: {.hero-copy}
-Research on light, sleep and circadian rhythms. Projects include human experiments, evidence synthesis, engineering and social research.
+Information about joining the Translational Sensory & Circadian Neuroscience Unit (MPS/TUM/TUMCREATE) for a student project, a job or an externally funded research stay.
 :::
 
-::: {.hero-foot}
-Master's theses · Research internships · Erasmus+ placements · Engineering projects
-:::
 :::
 
-{{< include _generated/catalogue.md >}}
+::: {.join-options}
+::: {.join-option}
+## Student projects
+
+BSc/MSc projects and research internships on light, sleep and circadian rhythms. Topics span experiments, evidence synthesis, engineering and social research.
+
+[Browse projects →](student-projects.qmd)
+:::
+
+::: {.join-option}
+## Jobs
+
+{{< include _generated/jobs-status.md >}}
+
+[Job vacancies →](jobs.qmd)
+:::
+
+::: {.join-option}
+## External funding
+
+DAAD, Humboldt and other programmes may support a research stay or fellowship. Contact us to discuss your proposed research and a possible host arrangement.
+
+[Funding and fellowships →](funding.qmd)
+:::
+:::
 
 ::: {.invitation}
-## Suitable academic backgrounds
+## Research in the unit
 
-Projects are suitable for students in health sciences, neuroscience, engineering, computing, education and the social sciences. Each advert lists relevant backgrounds and methods.
+We study how light, sensory experience and biological rhythms affect human physiology, behaviour and health.
 
-[Projects by academic background →](programmes.qmd)
+[About the unit](about.qmd) · [How to enquire](apply.qmd)
 :::

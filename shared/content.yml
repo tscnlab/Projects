@@ -9,7 +9,7 @@ contacts:
   Tübingen: manuel.spitschan@tuebingen.mpg.de
 en:
   label: Student research project
-  back: All research opportunities
+  back: All student projects
   pdf: Download one-page PDF
   backgrounds: Suitable backgrounds
   expectations_title: General expectations
@@ -25,17 +25,20 @@ en:
   enquiry: Enquiries welcome
   paused: Enquiries paused
   closed: Currently closed
-  nav: [Projects, About, Expectations, Funding, How to apply]
+  jobs_status: There are currently no advertised job vacancies.
+  nav: [Join, Student projects, Jobs, About, Expectations, Funding, How to apply]
   about: |
     The Translational Sensory & Circadian Neuroscience Unit (MPS/TUM/TUMCREATE) investigates how light, sensory experience and biological rhythms affect human physiology, behaviour and health. Methods include human experiments, environmental measurement, evidence synthesis and social research.
 
     Student projects can be based in Tübingen, Munich or remotely, depending on the work involved. Scope, location and supervision are agreed individually.
 
+    This site also lists [job vacancies](/jobs.html) and [external funding routes](/funding.html) for researchers interested in joining the unit. If you are considering a fellowship or research visit, contact us to discuss the research and a possible host arrangement.
+
     ## Research approach
 
     Our [mission statement](https://www.tscnlab.org/mission-statement) describes our approach to reproducible research, collaboration and working conditions. The [unit website](https://www.tscnlab.org/) has further information about the group and its research.
 
-    [Explore projects](/) · [General expectations](/expectations.html) · [How to apply](/apply.html)
+    [Student projects](/student-projects.html) · [General expectations](/expectations.html) · [How to apply](/apply.html)
   expectations: |
     These projects address open research questions rather than predefined teaching exercises. Students are expected to work independently, document decisions and take increasing responsibility, with feedback from their supervisor.
 
@@ -55,27 +58,74 @@ en:
 
     [Read about funding](/funding.html) · [How to apply](/apply.html)
   funding: |
-    **Unless explicitly stated otherwise, advertised projects do not include a salary or stipend from the research group. Master's thesis projects are generally unpaid.**
+    External funding may support a research visit, doctoral research, a postdoctoral project or a student placement. The routes below concern research stays in Germany; eligibility depends on the programme, your career stage and your circumstances.
 
-    Students may have support through Erasmus+, scholarships, their home university, mobility programmes or other external sources. Please mention relevant funding or mobility programmes when contacting us. Do not assume that a project enquiry secures funding.
+    If you would like us to host a funded project, [contact us with your research idea and the programme you have in mind](/apply.html#fellowships-and-research-visits). We will need to discuss scientific fit, supervision and resources before agreeing to support an application. Each funder sets its own eligibility rules, calls and deadlines; use the official links below to check them.
 
-    ## Centrally organised placements
+    ## Doctoral research and research visits
 
-    Some placements may be offered through programmes such as [CaCTüS in Tübingen](https://www.projects.tuebingen.mpg.de/internship/) or [TUM PREP in Munich](https://www.global.tum.de/en/global/prep/). These programmes have their own eligibility, application, selection and funding procedures. Check the official programme information; applicants cannot obtain these funds directly from the research group.
+    ### DAAD
 
-    Participation in one of these programmes is not guaranteed by a listing here, and not every project is part of a central programme. Programme applications must follow the programme's own process.
+    The German Academic Exchange Service offers several funding routes for study and research in Germany. Its **Research Grants in Germany** programme supports research stays during a doctorate undertaken outside Germany or in the early postdoctoral phase. Other schemes have different purposes and requirements. Use your country of residence, career stage and subject to find relevant options in the [DAAD scholarship database](https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/).
 
-    [How to apply](/apply.html)
+    ## Postdoctoral funding
+
+    ### Alexander von Humboldt Foundation
+
+    The [Humboldt Research Fellowship](https://www.humboldt-foundation.de/en/apply/sponsorship-programmes/humboldt-research-fellowship) supports postdoctoral and experienced researchers from abroad in carrying out their own research with a host in Germany. It requires an agreed research project and host support. Check the foundation's current call status, career-stage and residence requirements before preparing an application.
+
+    ### Marie Skłodowska-Curie Actions
+
+    [MSCA Postdoctoral Fellowships](https://marie-sklodowska-curie-actions.ec.europa.eu/actions/postdoctoral-fellowships) support researchers with a doctorate who wish to carry out a research and training project. A **European Postdoctoral Fellowship** may be a route to joining a host in Germany. The proposal is prepared with the host organisation, which submits it. Mobility and research-experience rules apply.
+
+    ### DFG Walter Benjamin Programme
+
+    The [Walter Benjamin Programme](https://www.dfg.de/en/research-funding/funding-opportunities/programmes/individual/walter-benjamin) supports an independent project in the early postdoctoral phase. For work in Germany, the funding takes the form of a position at the host institution. A change of research environment is normally expected, and the host must provide project resources and career support. Discuss the institutional arrangements with us before applying.
+
+    ## Student projects and placements
+
+    **Unless explicitly stated otherwise, student projects do not include a salary or stipend from the research group. Master's thesis projects are generally unpaid.**
+
+    Students may have support through scholarships, their home university or mobility programmes. Mention any proposed funding when enquiring about a project.
+
+    ### Erasmus+
+
+    [Erasmus+ traineeships](https://erasmus-plus.ec.europa.eu/opportunities/individuals/students/traineeships-abroad-for-students) can support eligible students and recent graduates undertaking a placement abroad. Ask your home university's international or Erasmus+ office about eligibility, funding and application procedures. The research placement and any required learning agreement need to be agreed with the host.
+
+    ### Centrally organised placements
+
+    Some placements may be offered through [CaCTüS in Tübingen](https://www.projects.tuebingen.mpg.de/internship/) or [TUM PREP in Munich](https://www.global.tum.de/en/global/prep/). These programmes have their own eligibility, application, selection and funding procedures. Applicants must follow the programme's process; funding cannot be obtained directly from the research group, and not every project listed here is part of a central programme.
+
+    [How to enquire about a project or fellowship](/apply.html) · [Job vacancies](/jobs.html)
   apply: |
-    To enquire about a project, email Prof. Manuel Spitschan with the information below.
+    For a student project or an externally funded research stay, email Prof. Manuel Spitschan using the addresses below. The information to include depends on the type of enquiry.
 
-    Include:
+    ## Student projects and research internships
+
+    To enquire about a [BSc/MSc project or research internship](/student-projects.html), include:
 
     - The **project title or link**, and a short explanation of your interest.
     - A **CV** and relevant skills or examples of work, such as an analysis or code repository if available.
     - Your **degree programme and home institution**, including any thesis or placement requirements.
     - Your preferred **format, dates, duration and location**.
     - Any **external funding or mobility programme** you plan to use.
+
+    Please read the [general expectations](/expectations.html) and [student funding information](/funding.html#student-projects-and-placements). Confirm degree-credit requirements with your home institution. For CaCTüS or TUM PREP, follow the programme's application procedure.
+
+    ## Fellowships and research visits
+
+    If you are considering [external funding](/funding.html), or already hold a fellowship and are seeking a host, include:
+
+    - A **short research outline** and how it relates to the unit's work.
+    - Your **CV**, current institution and career stage, with relevant publications or other work where applicable.
+    - The **funding programme and official call link**, its deadline and whether funding is planned or already awarded.
+    - Your preferred **host location, start date and duration**, and any facilities or other support the project would need.
+
+    Contact us before submitting an application that names us as a host, allowing time to discuss the proposal and any institutional requirements. Hosting depends on scientific fit, supervision and resources; an enquiry does not constitute a commitment to host or fund the work.
+
+    ## Job applications
+
+    See the [jobs page](/jobs.html) for current vacancies. For an advertised position, follow the application route and deadline in the vacancy notice.
 
     ## Where to write
 
@@ -86,9 +136,6 @@ en:
 
     For remote projects, use the address that best matches your institutional connection, or either address if unsure. TUM students should use the TUM address. The lab's [contact page](https://www.tscnlab.org/contact) has further details.
 
-    Project scope, start dates and availability depend on supervision and resources. An enquiry is not an offer of a place. Background suggestions do not establish approval for degree credit; confirm this with your home institution.
-
-    Please read the [general expectations](/expectations.html) and [funding information](/funding.html) before contacting us. If applying through CaCTüS or TUM PREP, follow that programme's application procedure.
 de:
   label: Studentisches Forschungsprojekt
   back: Alle Forschungsprojekte
@@ -107,4 +154,4 @@ de:
   enquiry: Anfragen willkommen
   paused: Anfragen pausiert
   closed: Derzeit geschlossen
-  nav: [Projekte, Über uns, Erwartungen, Finanzierung, Bewerbung]
+  nav: [Einstieg, Studienprojekte, Stellen, Über uns, Erwartungen, Finanzierung, Bewerbung]

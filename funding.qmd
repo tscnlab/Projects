@@ -1,7 +1,8 @@
 ---
-title: Funding and remuneration
+title: Funding and fellowships
+description: DAAD, Humboldt, MSCA, DFG and student mobility funding routes for joining the unit.
 ---
 
-# Funding and remuneration
+# Funding and fellowships
 
 {{< include _generated/funding.md >}}

@@ -3,6 +3,8 @@ project:
   output-dir: _site
   render:
     - index.qmd
+    - student-projects.qmd
+    - jobs.qmd
     - about.qmd
     - expectations.qmd
     - funding.qmd
@@ -23,7 +25,7 @@ project:
 website:
   title: Translational Sensory & Circadian Neuroscience Unit (MPS/TUM/TUMCREATE)
   site-url: https://join.tscnlab.org
-  description: Student research projects in light, sleep, circadian health, engineering and society in Tübingen, Munich and remotely.
+  description: Student projects, jobs and external funding routes for research on light, sleep and circadian rhythms.
   search: false
   open-graph: true
 format:

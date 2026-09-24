@@ -148,6 +148,7 @@ def prepare() -> None:
     (GEN / 'shared.json').write_text(json.dumps(s, ensure_ascii=False), encoding='utf-8')
     for name in ('about', 'expectations', 'funding', 'apply'):
         (GEN / f'{name}.md').write_text(s['en'][name], encoding='utf-8')
+    (GEN / 'jobs-status.md').write_text(s['en']['jobs_status'] + '\n', encoding='utf-8')
     e = html.escape
     featured = ['darkness-dose', 'smartphone-corneal-irradiance', 'temporal-autonomy']
     ps.sort(key=lambda p: (featured.index(p['slug']) if p['slug'] in featured else len(featured), p['title'].casefold()))
@@ -174,7 +175,7 @@ def prepare() -> None:
 '''
     (GEN / 'catalogue.md').write_text(catalogue, encoding='utf-8')
     backgrounds = sorted({b for p in open_projects for b in p['backgrounds']}, key=str.casefold)
-    programme_links = ''.join(f'<li><a href="/?q={quote(b)}">{e(b)} <small>{sum(b in p["backgrounds"] for p in open_projects)} →</small></a></li>' for b in backgrounds)
+    programme_links = ''.join(f'<li><a href="/student-projects.html?q={quote(b)}">{e(b)} <small>{sum(b in p["backgrounds"] for p in open_projects)} →</small></a></li>' for b in backgrounds)
     (GEN / 'programmes.md').write_text('```{=html}\n<ul class="programme-list">' + programme_links + '</ul>\n```\n', encoding='utf-8')
     print(f'Validated {len(ps)} canonical project sources; prepared shared content and catalogue.')
 
@@ -272,7 +273,7 @@ def validate_output() -> None:
                 if doc and not doc.find(id=unquote(url.fragment)) and not doc.find(attrs={'name': unquote(url.fragment)}):
                     errors.append(f'Broken anchor: {path.relative_to(OUT)} -> {value}')
     # Public output is an allowlist, not a copy of the repository.
-    root_files = {'index.html','about.html','expectations.html','funding.html','apply.html','programmes.html','404.html','CNAME','robots.txt','sitemap.xml','search.json','.nojekyll'}
+    root_files = {'index.html','student-projects.html','jobs.html','about.html','expectations.html','funding.html','apply.html','programmes.html','404.html','CNAME','robots.txt','sitemap.xml','search.json','.nojekyll'}
     expected_project_files = {f'projects/{p["slug"]}/{name}' for p in ps for name in ('index.html','advert.pdf')}
     assets = {'assets/tscn-logo.png','assets/site.css','assets/search.js'}
     for path in OUT.rglob('*'):
@@ -284,7 +285,7 @@ def validate_output() -> None:
             errors.append(f'Unexpected public file: {rel}')
     if not (OUT / 'CNAME').is_file() or (OUT / 'CNAME').read_text().strip() != 'join.tscnlab.org':
         errors.append('Missing or incorrect custom domain')
-    catalogue = cache.get((OUT / 'index.html').resolve())
+    catalogue = cache.get((OUT / 'student-projects.html').resolve())
     if catalogue:
         cards = catalogue.select('.project-card')
         targets = ['/' + c.select_one('h3 a')['href'].lstrip('./') for c in cards]

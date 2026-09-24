@@ -1,0 +1,22 @@
+---
+title: Jobs
+description: Current job vacancies and information about externally funded research at the Translational Sensory & Circadian Neuroscience Unit (MPS/TUM/TUMCREATE).
+---
+
+# Jobs
+
+::: {.vacancy-status}
+{{< include _generated/jobs-status.md >}}
+:::
+
+Future vacancies will be listed here with the role, location, application deadline and application instructions.
+
+## Externally funded research
+
+If you are considering a fellowship or research grant, you can contact us to discuss your research idea and whether we could host the work. This can be discussed even when no job vacancies are advertised.
+
+[Funding and fellowships](funding.qmd) · [Enquiring about a research stay](apply.qmd#fellowships-and-research-visits)
+
+## Student projects
+
+For a thesis or placement, see [BSc/MSc projects and research internships](student-projects.qmd).

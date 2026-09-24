@@ -1,8 +1,9 @@
 # Translational Sensory & Circadian Neuroscience Unit (MPS/TUM/TUMCREATE)
 
-Student research opportunities
+Student projects, jobs and external funding
 
-The Quarto website for **join.tscnlab.org**. The portfolio contains 27 student
+The Quarto website for **join.tscnlab.org**. The homepage links to BSc/MSc projects
+and research internships, job vacancies, and external funding routes. The portfolio contains 27 student
 research opportunities, each with an HTML page and a standalone one-page A4 PDF.
 The site is static: no application server, tracking, external font service or
 database is needed.
@@ -20,7 +21,7 @@ Quarto renders the HTML. A post-render hook reads **the same complete Markdown
 body and YAML metadata** and typesets the PDF with ReportLab. There is no separate
 PDF copy, summary field or editable generated project catalogue. The PDF renderer
 uses embedded fonts, fixed readable type sizes and measured layout regions; it
-fails on overflow instead of shrinking or silently clipping text. The homepage
+fails on overflow instead of shrinking or silently clipping text. The catalogue
 pitch is derived from the first paragraph of the project's question section.
 
 ## Local build and preview
@@ -55,7 +56,7 @@ Changing shared content or project metadata may require a full render; restart
 preview after a full build. Hooks use `python3`, so keep the virtual environment
 activated. No LaTeX installation is required.
 
-## Add or edit an opportunity
+## Add or edit a student project
 
 1. Copy `templates/project.qmd` to `projects/your-semantic-slug/index.qmd`.
 2. Edit the YAML and four Markdown sections. Set `slug` to match the directory
@@ -66,7 +67,7 @@ activated. No LaTeX installation is required.
 Use short semantic slugs such as `motion-melatonin`; **never use a year or
 sequence number**. Retain a slug when the title changes, so old links and printed
 PDFs continue to work. To pause recruitment, use `status: paused` or `closed`:
-the page and PDF remain accessible, but the homepage and programme discovery
+the page and PDF remain accessible, but the student catalogue and programme discovery
 lists show only open projects. Do not rename an existing slug without a redirect
 plan.
 
@@ -123,6 +124,13 @@ individually. Background metadata never asserts formal programme approval.
 
 ## Shared content and branding
 
+- `index.qmd`: the join homepage, with links to the three routes.
+- `student-projects.qmd`: the BSc/MSc project and research internship catalogue.
+- `jobs.qmd`: vacancies and links to fellowship enquiries. The current vacancy
+  status is in `shared/content.yml` under `en.jobs_status`, used on both the home
+  and jobs pages. When adding a vacancy, update that status and include the role,
+  location, deadline and official application link in `jobs.qmd`.
+
 - `shared/content.yml`: the full unit name, content update date, central expectations, funding, lab description,
   application guidance, contact addresses and English/German short versions.
 - `filters/layout.lua`: shared web page, project metadata and language-aware layout.
@@ -142,10 +150,13 @@ An unexpected upstream change fails the build. No network is needed to build
 when the verified logo and dependencies are already installed.
 
 Shared content links to the lab's [mission statement](https://www.tscnlab.org/mission-statement)
-and [contact page](https://www.tscnlab.org/contact). Funding links use the official
-[CaCTüS](https://www.projects.tuebingen.mpg.de/internship/) and
-[TUM PREP](https://www.global.tum.de/en/global/prep/) pages; they do not promise
-programme eligibility, selection or funds from the research group.
+and [contact page](https://www.tscnlab.org/contact). Funding guidance in
+`shared/content.yml` covers DAAD, Humboldt Research Fellowships, MSCA Postdoctoral
+Fellowships, the DFG Walter Benjamin Programme, Erasmus+, CaCTüS and TUM PREP.
+Descriptions were checked against the linked official programme pages on
+24 September 2026. Call availability, deadlines and detailed eligibility remain
+with the funder; recheck those links when revising this guidance. Hosting must be
+discussed individually, and a programme listing does not promise funding or a place.
 
 ## Public disclosure and private material
 
@@ -176,7 +187,7 @@ python -m unittest discover -s tests -v
 
 The full build checks required metadata, enumerations, stable unique slugs,
 canonical paths, every advertised HTML/PDF pair, complete PDF body text, exactly
-one A4 page per PDF, internal links and anchors, unique homepage entries, the
+one A4 page per PDF, internal links and anchors, unique catalogue entries, the
 custom-domain file, and unexpected/private files in public output. The tests
 also intentionally inject synthetic bad links, missing PDFs and unexpected
 files to ensure the checks fail, restoring the output afterwards.
@@ -192,6 +203,7 @@ python scripts/check_browser.py
 The script runs a temporary local server, checks every route at 1440, 390 and
 320 pixels, exercises search, location filtering, empty state, reset, URL
 persistence, downloads, German pages, keyboard access and no-JavaScript fallback.
+It also follows the homepage routes through jobs, funding and fellowship enquiries.
 It also exercises project cards, return navigation and programme search from
 local HTML files, and saves screenshots plus a report in `test-results/`. On Linux, use
 `python -m playwright install --with-deps chromium`. An existing Chrome executable
