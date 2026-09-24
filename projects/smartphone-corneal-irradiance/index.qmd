@@ -1,0 +1,31 @@
+---
+title: Novel smartphone-based ways to estimate corneal irradiance
+subtitle: Computational imaging methods for measuring light at the eye.
+slug: smartphone-corneal-irradiance
+lang: en
+location: [Tübingen, Munich]
+formats: ["Master's thesis", Research internship, Erasmus+ research placement, Engineering project]
+primary-theme: Measuring the environment
+backgrounds: [Engineering, Biomedical engineering, Computer science, Data science]
+methods: [Computational imaging, Optical calibration, Signal processing, Computational modelling]
+status: open
+disclosure: teaser
+---
+
+## The question
+
+Could a smartphone help estimate the light reaching the eye? Corneal irradiance is relevant to understanding light exposure, yet measuring it reliably outside a specialised laboratory remains a practical challenge.
+
+## The project
+
+Explore novel smartphone-based methods as an engineering and computational imaging problem. Work will combine controlled optical measurements with calibration, signal processing or computational modelling. The underlying measurement implementation is reserved for discussions with prospective students.
+
+## What you will do
+
+- Review measurement principles and sources of error in optical sensing.
+- Develop and evaluate a defined component of a measurement or analysis workflow against reference measurements.
+- Quantify uncertainty, robustness and limitations, documenting code and calibration work reproducibly.
+
+## Possible scope
+
+An engineering project or thesis could focus on development and quantitative validation. A shorter placement could examine calibration or a bounded modelling question. Strong programming and quantitative skills are useful; optics or imaging experience would be an advantage.

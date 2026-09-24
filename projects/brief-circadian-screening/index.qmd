@@ -1,0 +1,46 @@
+---
+title: What is the minimum we need to know about sleep and circadian timing in the clinic?
+subtitle: Developing a brief sleep and circadian screening questionnaire.
+slug: brief-circadian-screening
+lang: en
+location:
+- Tübingen
+- Munich
+- Remote
+formats:
+- Master's thesis
+- Research internship
+- Erasmus+ research placement
+primary-theme: Clinical translation
+backgrounds:
+- Medicine
+- Psychology
+- Health science
+- Public health
+- HCI
+methods:
+- Questionnaire development
+- Evidence review
+- Cognitive interviewing
+- Psychometrics
+status: open
+disclosure: teaser
+---
+
+## The question
+
+Clinical encounters leave limited time to understand sleep and daily timing. Which questions could provide a useful starting point without making a brief screen promise more than it can deliver?
+
+## The project
+
+Contribute to developing a concise screening questionnaire grounded in existing measures and clinical needs. The work may examine candidate content, clarity and feasibility; a newly developed questionnaire would require appropriate validation before clinical use.
+
+## What you will do
+
+- Review existing measures and map the concepts a brief screen needs to address.
+- Refine candidate wording through structured feedback or cognitive interviews, subject to approvals.
+- Document development decisions and assess feasibility or preliminary measurement properties where suitable data are available.
+
+## Possible scope
+
+A thesis could focus on development or an agreed evaluation stage. A shorter placement could review existing instruments or analyse feedback. Interest in measurement, clinical communication or questionnaire methods is valuable.

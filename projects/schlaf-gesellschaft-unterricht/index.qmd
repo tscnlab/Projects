@@ -1,0 +1,45 @@
+---
+title: Wem gehört unser Schlaf?
+subtitle: Schlaf, Zeit und gesellschaftliche Strukturen in deutschen sozialwissenschaftlichen Lehrplänen und Schulbüchern.
+slug: schlaf-gesellschaft-unterricht
+lang: de
+location:
+- Tübingen
+- Munich
+- Remote
+formats:
+- Master's thesis
+- Research internship
+- Erasmus+ research placement
+primary-theme: Circadian health in society
+backgrounds:
+- Soziologie
+- Bildungswissenschaften
+- Lehramt
+- Politikwissenschaft
+- Kommunikationswissenschaft
+methods:
+- Qualitative Inhaltsanalyse
+- Dokumentenanalyse
+- Sozialwissenschaftliche Bildungsforschung
+status: open
+disclosure: standard
+---
+
+## Die Frage
+
+Wird Schlaf im Unterricht als persönliche Entscheidung oder auch als gesellschaftliche Frage behandelt? Arbeitszeiten, Fürsorgearbeit und soziale Ungleichheit prägen, wann Menschen schlafen können.
+
+## Das Projekt
+
+Analysieren Sie ausgewählte deutsche sozialwissenschaftliche Lehrpläne und Schulbücher. Untersuchen Sie, wie Zeit, Schlaf und gesellschaftliche Strukturen dargestellt werden und welche Handlungsspielräume Einzelnen oder Institutionen zugeschrieben werden.
+
+## Ihre Aufgaben
+
+- Begründen Sie eine Auswahl von Lehrplänen und Schulbüchern für einen klar umrissenen Vergleich.
+- Entwickeln Sie ein Kategoriensystem und führen Sie eine nachvollziehbare qualitative Inhaltsanalyse durch.
+- Ordnen Sie Deutungsmuster, Leerstellen und Unterschiede in die sozialwissenschaftliche Bildungsforschung ein.
+
+## Möglicher Umfang
+
+Eine Masterarbeit kann einen vergleichenden Schwerpunkt setzen; ein kürzeres Praktikum kann eine begrenzte Dokumentengruppe bearbeiten. Sehr gute Deutschkenntnisse sowie Interesse an Soziologie, politischer Bildung oder Bildungsforschung sind wichtig. Neurowissenschaftliche Vorkenntnisse sind nicht erforderlich.

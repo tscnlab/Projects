@@ -1,0 +1,46 @@
+---
+title: Does visual performance change across the menstrual cycle?
+subtitle: A systematic review and meta-analysis.
+slug: vision-menstrual-cycle
+lang: en
+location:
+- Tübingen
+- Munich
+- Remote
+formats:
+- Master's thesis
+- Research internship
+- Erasmus+ research placement
+primary-theme: Sleep, brain and sensory function
+backgrounds:
+- Psychology
+- Neuroscience
+- Medicine
+- Epidemiology
+- Health science
+methods:
+- Systematic review
+- Meta-analysis
+- Psychophysics
+- Evidence appraisal
+status: open
+disclosure: standard
+---
+
+## The question
+
+Do measures of visual performance vary across the menstrual cycle? Reports may depend on the visual task, how cycle phases are defined, and how hormonal status is measured or reported.
+
+## The project
+
+Synthesise human studies of visual performance across the menstrual cycle. The project will examine the consistency of findings and assess how design and measurement choices affect the conclusions that can be drawn.
+
+## What you will do
+
+- Develop a protocol, search the literature systematically and screen eligible studies.
+- Extract outcomes and methodological information, including cycle ascertainment, and assess risk of bias.
+- Build a reproducible synthesis and meta-analysis where outcomes and designs are sufficiently comparable.
+
+## Possible scope
+
+A thesis could complete a focused review and quantitative synthesis. A shorter placement could contribute to searching, screening or extraction. Interest in psychophysics, research methods or quantitative evidence synthesis is useful.

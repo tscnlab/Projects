@@ -1,0 +1,48 @@
+---
+title: Designing games about circadian rhythms
+subtitle: Making daily biological timing something people can explore.
+slug: circadian-games
+lang: en
+location:
+- Tübingen
+- Munich
+- Remote
+formats:
+- Master's thesis
+- Research internship
+- Erasmus+ research placement
+- Engineering project
+primary-theme: Circadian health in society
+backgrounds:
+- Game design
+- HCI
+- Computer science
+- Education
+- Communication
+- Psychology
+methods:
+- Game prototyping
+- Participatory design
+- Usability testing
+- Learning evaluation
+status: open
+disclosure: standard
+---
+
+## The question
+
+Could a game help people explore circadian rhythms and understand the consequences of everyday timing choices? An engaging experience needs to remain scientifically careful as well as playable.
+
+## The project
+
+Design and evaluate a focused game or interactive prototype about circadian health. The project connects science communication with game design, asking how mechanics and feedback can support understanding without oversimplifying the science.
+
+## What you will do
+
+- Define an audience and learning objective grounded in scientific evidence.
+- Prototype and iterate on a bounded experience, documenting design choices and implementation.
+- Evaluate usability or understanding through an appropriate study, subject to participant approvals.
+
+## Possible scope
+
+A thesis or engineering project could span design, implementation and evaluation. A shorter placement could test a specific mechanic or improve an existing prototype. Game design, HCI, programming or educational design experience is useful.

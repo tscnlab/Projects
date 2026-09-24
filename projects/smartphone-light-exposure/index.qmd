@@ -1,0 +1,46 @@
+---
+title: Can smartphones estimate circadian light exposure?
+subtitle: Evaluating an everyday device against research-grade light measurements.
+slug: smartphone-light-exposure
+lang: en
+location:
+- Tübingen
+- Munich
+formats:
+- Master's thesis
+- Research internship
+- Erasmus+ research placement
+- Engineering project
+primary-theme: Measuring the environment
+backgrounds:
+- Engineering
+- Biomedical engineering
+- Computer science
+- Data science
+- Health science
+methods:
+- Sensor validation
+- Calibration
+- Time-series analysis
+- Uncertainty analysis
+status: open
+disclosure: teaser
+---
+
+## The question
+
+Smartphones are carried through many everyday environments. Could their measurements support useful estimates of circadian light exposure, and where would those estimates become unreliable?
+
+## The project
+
+Evaluate smartphone-derived light information against suitable reference measurements. The project focuses on accuracy, variability between devices and conditions, and the difference between a convenient proxy and a defensible exposure measure.
+
+## What you will do
+
+- Review phone sensing capabilities and biologically relevant light metrics.
+- Develop a reproducible calibration or comparison workflow using controlled measurements or an agreed dataset.
+- Quantify errors, uncertainty and practical limits across relevant conditions.
+
+## Possible scope
+
+A thesis or engineering project could address validation and modelling. A shorter placement could focus on a defined device comparison or analysis component. Programming, signal processing or measurement-science experience would be useful.

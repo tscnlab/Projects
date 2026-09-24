@@ -1,0 +1,46 @@
+---
+title: Is circadian light part of public health?
+subtitle: An international analysis of public-health guidance.
+slug: circadian-public-health
+lang: en
+location:
+- Tübingen
+- Munich
+- Remote
+formats:
+- Master's thesis
+- Research internship
+- Erasmus+ research placement
+primary-theme: Circadian health in society
+backgrounds:
+- Public health
+- Public policy
+- Health science
+- Epidemiology
+- Communication
+methods:
+- Policy analysis
+- Document research
+- Content analysis
+- Evidence mapping
+status: open
+disclosure: standard
+---
+
+## The question
+
+Public-health advice often discusses sleep, but does it address the timing and quality of light exposure? Guidance can shape what people and institutions recognise as a health-relevant environment.
+
+## The project
+
+Map how a defined international sample of public-health guidance addresses light and circadian health. Examine the specificity, audiences and evidence base of recommendations, while recognising differences in language, remit and national context.
+
+## What you will do
+
+- Develop a transparent sampling and search strategy for public guidance.
+- Code how documents discuss daytime light, evening light and daily timing, and trace cited evidence.
+- Compare patterns and gaps using reproducible summaries and carefully contextualised interpretation.
+
+## Possible scope
+
+A thesis could produce a comparative policy analysis. A shorter placement could focus on one region, language or type of guidance. Public-health, policy or communication backgrounds are welcome; additional language skills may expand the scope.

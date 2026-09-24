@@ -1,0 +1,46 @@
+---
+title: Light therapy in neurodegenerative disorders
+subtitle: A systematic review and meta-analysis of the clinical evidence.
+slug: light-neurodegeneration
+lang: en
+location:
+- Tübingen
+- Munich
+- Remote
+formats:
+- Master's thesis
+- Research internship
+- Erasmus+ research placement
+primary-theme: Clinical translation
+backgrounds:
+- Medicine
+- Neuroscience
+- Psychology
+- Public health
+- Epidemiology
+methods:
+- Systematic review
+- Meta-analysis
+- Risk-of-bias assessment
+- Clinical evidence synthesis
+status: open
+disclosure: standard
+---
+
+## The question
+
+Can light-based interventions improve outcomes for people with neurodegenerative disorders? Clinical studies vary in their participants, interventions and outcomes, making the evidence difficult to interpret as a whole.
+
+## The project
+
+Conduct a systematic review of light therapy in a defined neurodegenerative context. Assess what clinical studies support, where uncertainty remains, and whether differences in intervention reporting limit comparison.
+
+## What you will do
+
+- Develop a review protocol, systematic searches and explicit screening criteria.
+- Extract intervention and outcome information and assess risk of bias.
+- Create a reproducible synthesis, using meta-analysis where appropriate and examining heterogeneity.
+
+## Possible scope
+
+A thesis could cover a focused review from protocol to synthesis. An internship or Erasmus+ placement could focus on screening, extraction or an agreed analytical question. Clinical knowledge is welcome but not essential; careful interpretation of evidence matters.

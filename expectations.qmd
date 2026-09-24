@@ -1,0 +1,7 @@
+---
+title: General expectations
+---
+
+# General expectations
+
+{{< include _generated/expectations.md >}}

@@ -1,0 +1,46 @@
+---
+title: Is medicine taking circadian time seriously?
+subtitle: An international analysis of circadian principles in clinical guidelines.
+slug: circadian-clinical-guidelines
+lang: en
+location:
+- Tübingen
+- Munich
+- Remote
+formats:
+- Master's thesis
+- Research internship
+- Erasmus+ research placement
+primary-theme: Clinical translation
+backgrounds:
+- Medicine
+- Public health
+- Epidemiology
+- Health science
+- Public policy
+methods:
+- Guideline analysis
+- Document research
+- Content analysis
+- Evidence mapping
+status: open
+disclosure: standard
+---
+
+## The question
+
+Clinical decisions happen in time, yet recommendations do not always discuss biological timing. Where do clinical guidelines engage with sleep and circadian principles, and how specific is their guidance?
+
+## The project
+
+Analyse a defined international sample of clinical guidelines. Distinguish practical recommendations about timing from passing references, and examine how claims are connected to supporting evidence. Language coverage and access will shape the sample.
+
+## What you will do
+
+- Develop a transparent sampling approach and document search and eligibility decisions.
+- Code guideline content consistently and examine the evidence attached to timing-related recommendations.
+- Compare patterns across a defined set of clinical areas or settings and report gaps without equating omission with poor care.
+
+## Possible scope
+
+A thesis could undertake a comparative analysis. A shorter placement could map one clinical area or help evaluate coding consistency. Clinical reading skills and experience with document or content analysis would be useful.

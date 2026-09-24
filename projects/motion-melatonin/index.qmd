@@ -1,0 +1,44 @@
+---
+title: Does melatonin suppression see motion?
+subtitle: Testing whether visual dynamics matter for a physiological response to light.
+slug: motion-melatonin
+lang: en
+location:
+- Tübingen
+- Munich
+formats:
+- Master's thesis
+- Research internship
+- Erasmus+ research placement
+primary-theme: Human photobiology
+backgrounds:
+- Neuroscience
+- Psychology
+- Health science
+- Biomedical engineering
+methods:
+- Human experiments
+- Melatonin measurement
+- Visual stimulation
+- Reproducible analysis
+status: open
+disclosure: teaser
+---
+
+## The question
+
+Light can influence melatonin, but does it matter whether a visual scene moves? This question connects visual processing with the pathways through which light affects circadian physiology.
+
+## The project
+
+Investigate visual dynamics in a controlled human photobiology study. Work may connect documented light stimulation with melatonin measurements and analysis of individual physiological responses. The advert does not specify the experimental stimulus design.
+
+## What you will do
+
+- Review visual motion processing and the measurement of melatonin responses.
+- Contribute to preparation, quality assurance and supervised data collection, subject to approvals and training.
+- Develop a reproducible analysis that addresses measurement variability and uncertainty.
+
+## Possible scope
+
+A thesis could combine experimental delivery and analysis. A shorter research placement could focus on measurement quality or an agreed analytical component. Careful laboratory work and interest in quantitative physiology are valuable.

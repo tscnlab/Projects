@@ -1,0 +1,31 @@
+---
+title: 'Darkness as a dose'
+subtitle: How does time spent in darkness alter subsequent physiological responses to light?
+slug: darkness-dose
+lang: en
+location: [Tübingen, Munich]
+formats: ["Master's thesis", Research internship, Erasmus+ research placement]
+primary-theme: Human photobiology
+backgrounds: [Neuroscience, Psychology, Health science, Medicine]
+methods: [Human experiments, Physiological measurement, Reproducible analysis]
+status: open
+disclosure: teaser
+---
+
+## The question
+
+Does darkness change how we respond to the next light we encounter? Understanding the influence of prior darkness could help explain why the same light exposure does not always have the same physiological effect.
+
+## The project
+
+Investigate light history as part of a controlled human photobiology study. The project connects carefully documented lighting conditions with physiological measurements and quantitative analysis of individual responses. The specific exposure design will be discussed with prospective students.
+
+## What you will do
+
+- Read the literature on light adaptation and circadian photoreception.
+- Contribute to study preparation, measurement quality checks and supervised data collection, subject to approvals and training.
+- Build a reproducible analysis of response variability and communicate the limits of the evidence.
+
+## Possible scope
+
+A thesis could connect experimental work with physiological data analysis. An internship or Erasmus+ placement could focus on measurement quality, a defined dataset or one stage of study delivery. Interest in human experiments and careful quantitative work is especially useful.

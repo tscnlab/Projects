@@ -1,0 +1,43 @@
+---
+title: Does vestibular state influence the human response to light?
+subtitle: Exploring the meeting point of balance, sensory context and photobiology.
+slug: vestibular-light
+lang: en
+location:
+- Tübingen
+- Munich
+formats:
+- Master's thesis
+- Research internship
+- Erasmus+ research placement
+primary-theme: Human photobiology
+backgrounds:
+- Neuroscience
+- Psychology
+- Medicine
+- Biomedical engineering
+methods:
+- Human experiments
+- Physiological measurement
+- Sensory neuroscience
+status: open
+disclosure: teaser
+---
+
+## The question
+
+We usually study the response to light as a problem of the eye. Could signals associated with balance and bodily orientation also matter for how the human body responds?
+
+## The project
+
+Explore the relationship between vestibular state and physiological responses to light in a controlled human study. The work brings multisensory neuroscience into photobiology, combining supervised experimental measurements with careful treatment of variability and potential confounding.
+
+## What you will do
+
+- Review evidence connecting vestibular, visual and physiological processes.
+- Support study preparation and supervised measurements, subject to approvals and training.
+- Check data quality and develop a reproducible analysis of physiological responses.
+
+## Possible scope
+
+A thesis could combine experimental work and analysis. A shorter placement could focus on measurement reliability or an agreed dataset. Interest in human sensory physiology and quantitative methods is useful. Specific experimental arrangements are discussed individually.

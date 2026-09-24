@@ -1,0 +1,46 @@
+---
+title: Changing the clocks, changing the conversation
+subtitle: Media reception of seasonal clock changes.
+slug: clock-change-media
+lang: en
+location:
+- Tübingen
+- Munich
+- Remote
+formats:
+- Master's thesis
+- Research internship
+- Erasmus+ research placement
+primary-theme: Circadian health in society
+backgrounds:
+- Media studies
+- Communication
+- Journalism
+- Sociology
+- Data science
+methods:
+- Media content analysis
+- Corpus research
+- Qualitative coding
+- Text analysis
+status: open
+disclosure: standard
+---
+
+## The question
+
+How do news media explain seasonal clock changes, and whose concerns receive attention? Scientific evidence, everyday experience and political debate can appear in very different frames.
+
+## The project
+
+Analyse media coverage of seasonal clock changes in a defined set of outlets, languages or contexts. Examine how claims about health, convenience and social consequences are presented and attributed, rather than treating every mention as the same kind of evidence.
+
+## What you will do
+
+- Build a transparent sampling strategy and document a bounded media corpus.
+- Develop a coding approach for frames, sources and claims; evaluate coding consistency.
+- Analyse patterns using qualitative interpretation or reproducible quantitative text analysis.
+
+## Possible scope
+
+A thesis could offer a comparative media study. A shorter placement could focus on one corpus or analytical stage. Journalism, media studies and communication backgrounds are especially relevant; text-analysis experience is useful but need not define the project.

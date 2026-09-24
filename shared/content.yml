@@ -1,0 +1,110 @@
+unit_name: Translational Sensory & Circadian Neuroscience Unit (MPS/TUM/TUMCREATE)
+last_updated: '2026-09-24'
+site_url: https://join.tscnlab.org
+lab_url: https://www.tscnlab.org/
+mission_url: https://www.tscnlab.org/mission-statement
+contact_url: https://www.tscnlab.org/contact
+contacts:
+  Munich: manuel.spitschan@tum.de
+  Tübingen: manuel.spitschan@tuebingen.mpg.de
+en:
+  label: Student research project
+  back: All research opportunities
+  pdf: Download one-page PDF
+  backgrounds: Suitable backgrounds
+  expectations_title: General expectations
+  funding_title: Funding
+  apply_title: How to apply
+  updated_label: Last updated
+  about_short: The Translational Sensory & Circadian Neuroscience Unit (MPS/TUM/TUMCREATE) studies light, sleep and circadian rhythms and their role in physiology, behaviour and health.
+  expectations_short: You should be able to analyse data in R or Python, use Git and GitHub, and work reproducibly. Independent reading, careful documentation and increasing responsibility are expected. Previous sleep or circadian research experience is not generally required.
+  funding_short: No salary or stipend from the research group unless explicitly stated. Master's theses are generally unpaid. Mention external funding or mobility programmes when applying.
+  application_short: Send a short motivation, CV, relevant skills, preferred project, dates, format and location. Mention external funding. Contact Prof. Manuel Spitschan using the address below.
+  fit_note: Suggested backgrounds are not formal programme approval. Confirm requirements with your home institution.
+  location_note: Location, timing and scope are agreed with the supervisor; availability depends on capacity and the work involved.
+  enquiry: Enquiries welcome
+  paused: Enquiries paused
+  closed: Currently closed
+  nav: [Projects, About, Expectations, Funding, How to apply]
+  about: |
+    The Translational Sensory & Circadian Neuroscience Unit (MPS/TUM/TUMCREATE) investigates how light, sensory experience and biological rhythms affect human physiology, behaviour and health. Methods include human experiments, environmental measurement, evidence synthesis and social research.
+
+    Student projects can be based in Tübingen, Munich or remotely, depending on the work involved. Scope, location and supervision are agreed individually.
+
+    ## Research approach
+
+    Our [mission statement](https://www.tscnlab.org/mission-statement) describes our approach to reproducible research, collaboration and working conditions. The [unit website](https://www.tscnlab.org/) has further information about the group and its research.
+
+    [Explore projects](/) · [General expectations](/expectations.html) · [How to apply](/apply.html)
+  expectations: |
+    These projects address open research questions rather than predefined teaching exercises. Students are expected to work independently, document decisions and take increasing responsibility, with feedback from their supervisor.
+
+    You should already be able to:
+
+    - Analyse data using **R or Python**. You do not need to know both.
+    - Use **Git and GitHub** to keep track of your work.
+    - Work reproducibly, from organised inputs to documented outputs.
+    - Engage independently with scientific literature.
+    - Document decisions, methods and results carefully.
+
+    Previous sleep or circadian research experience is not generally required unless an advert explicitly says otherwise. Project-specific backgrounds are suggestions: explain how your skills connect to the question.
+
+    ## Project scope
+
+    We will discuss a scope that fits your time, experience and academic requirements. A short placement may focus on one part of a larger study; a thesis may take a question through a more complete research cycle. Human-participant work depends on the relevant approvals, training and supervision.
+
+    [Read about funding](/funding.html) · [How to apply](/apply.html)
+  funding: |
+    **Unless explicitly stated otherwise, advertised projects do not include a salary or stipend from the research group. Master's thesis projects are generally unpaid.**
+
+    Students may have support through Erasmus+, scholarships, their home university, mobility programmes or other external sources. Please mention relevant funding or mobility programmes when contacting us. Do not assume that a project enquiry secures funding.
+
+    ## Centrally organised placements
+
+    Some placements may be offered through programmes such as [CaCTüS in Tübingen](https://www.projects.tuebingen.mpg.de/internship/) or [TUM PREP in Munich](https://www.global.tum.de/en/global/prep/). These programmes have their own eligibility, application, selection and funding procedures. Check the official programme information; applicants cannot obtain these funds directly from the research group.
+
+    Participation in one of these programmes is not guaranteed by a listing here, and not every project is part of a central programme. Programme applications must follow the programme's own process.
+
+    [How to apply](/apply.html)
+  apply: |
+    To enquire about a project, email Prof. Manuel Spitschan with the information below.
+
+    Include:
+
+    - The **project title or link**, and a short explanation of your interest.
+    - A **CV** and relevant skills or examples of work, such as an analysis or code repository if available.
+    - Your **degree programme and home institution**, including any thesis or placement requirements.
+    - Your preferred **format, dates, duration and location**.
+    - Any **external funding or mobility programme** you plan to use.
+
+    ## Where to write
+
+    Contact Prof. Manuel Spitschan:
+
+    - **Munich / TUM:** [manuel.spitschan@tum.de](mailto:manuel.spitschan@tum.de)
+    - **Tübingen / MPI:** [manuel.spitschan@tuebingen.mpg.de](mailto:manuel.spitschan@tuebingen.mpg.de)
+
+    For remote projects, use the address that best matches your institutional connection, or either address if unsure. TUM students should use the TUM address. The lab's [contact page](https://www.tscnlab.org/contact) has further details.
+
+    Project scope, start dates and availability depend on supervision and resources. An enquiry is not an offer of a place. Background suggestions do not establish approval for degree credit; confirm this with your home institution.
+
+    Please read the [general expectations](/expectations.html) and [funding information](/funding.html) before contacting us. If applying through CaCTüS or TUM PREP, follow that programme's application procedure.
+de:
+  label: Studentisches Forschungsprojekt
+  back: Alle Forschungsprojekte
+  pdf: Projektblatt als PDF herunterladen
+  backgrounds: Passende Fachrichtungen
+  expectations_title: Allgemeine Erwartungen
+  funding_title: Finanzierung
+  apply_title: Bewerbung
+  updated_label: Zuletzt aktualisiert
+  about_short: Die Translational Sensory & Circadian Neuroscience Unit (MPS/TUM/TUMCREATE) erforscht Licht, Schlaf und zirkadiane Rhythmen und deren Bedeutung für Physiologie, Verhalten und Gesundheit.
+  expectations_short: Sie analysieren Daten in R oder Python, nutzen Git und GitHub und arbeiten reproduzierbar. Sie lesen eigenständig Fachliteratur, dokumentieren sorgfältig und übernehmen zunehmend Verantwortung. Schlaf- oder zirkadiane Vorkenntnisse sind in der Regel nicht erforderlich.
+  funding_short: Ohne ausdrückliche Angabe kein Gehalt oder Stipendium der Forschungsgruppe. Masterarbeiten sind in der Regel unbezahlt. Nennen Sie bei der Bewerbung externe Förderung oder Mobilitätsprogramme.
+  application_short: Senden Sie eine kurze Motivation, Lebenslauf, relevante Kenntnisse sowie Projektwunsch, Zeitraum, Format und Ort. Nennen Sie externe Förderung. Kontaktieren Sie Prof. Manuel Spitschan über die unten angegebene Adresse.
+  fit_note: Fachrichtungen sind Orientierungshilfen, keine Studiengangsanerkennung. Klären Sie Anforderungen mit Ihrer Hochschule.
+  location_note: Ort, Zeitraum und Umfang werden mit der Betreuung vereinbart und hängen von Kapazitäten und Aufgaben ab.
+  enquiry: Anfragen willkommen
+  paused: Anfragen pausiert
+  closed: Derzeit geschlossen
+  nav: [Projekte, Über uns, Erwartungen, Finanzierung, Bewerbung]

@@ -1,0 +1,46 @@
+---
+title: Beyond visible light
+subtitle: Do infrared wavelengths influence human physiology?
+slug: infrared-physiology
+lang: en
+location:
+- Tübingen
+- Munich
+formats:
+- Master's thesis
+- Research internship
+- Erasmus+ research placement
+- Engineering project
+primary-theme: Human photobiology
+backgrounds:
+- Neuroscience
+- Medicine
+- Physics
+- Engineering
+- Biomedical engineering
+methods:
+- Human physiology
+- Optical measurement
+- Experimental design
+- Quantitative analysis
+status: open
+disclosure: teaser
+---
+
+## The question
+
+Does radiation beyond the visible spectrum influence human physiology in ways relevant to photobiology? Answering this requires distinguishing possible responses from thermal effects and other confounding influences.
+
+## The project
+
+Explore the evidence and measurement challenges surrounding infrared exposure and human physiological outcomes. The project may combine critical literature work, controlled optical characterisation and an agreed experimental or analytical component. Human exposure work requires appropriate safety assessment and approvals.
+
+## What you will do
+
+- Map the evidence and identify how studies account for heat and measurement limitations.
+- Support optical characterisation or supervised physiological measurements where approved.
+- Analyse data reproducibly and evaluate what the results can and cannot establish.
+
+## Possible scope
+
+A thesis could develop a focused physiological or measurement question. An engineering project or shorter placement could concentrate on characterisation or analysis. Optics, experimental physics or quantitative physiology would be useful backgrounds.

@@ -1,0 +1,32 @@
+---
+title: Student research projects
+description: Master's theses, research internships, Erasmus+ placements and engineering projects at the Translational Sensory & Circadian Neuroscience Unit (MPS/TUM/TUMCREATE).
+---
+
+::: {.home-hero}
+::: {.eyebrow}
+TÜBINGEN · MUNICH · REMOTE
+:::
+
+```{=html}
+<h1>Student research projects</h1>
+```
+
+::: {.hero-copy}
+Research on light, sleep and circadian rhythms. Projects include human experiments, evidence synthesis, engineering and social research.
+:::
+
+::: {.hero-foot}
+Master's theses · Research internships · Erasmus+ placements · Engineering projects
+:::
+:::
+
+{{< include _generated/catalogue.md >}}
+
+::: {.invitation}
+## Suitable academic backgrounds
+
+Projects are suitable for students in health sciences, neuroscience, engineering, computing, education and the social sciences. Each advert lists relevant backgrounds and methods.
+
+[Projects by academic background →](programmes.qmd)
+:::

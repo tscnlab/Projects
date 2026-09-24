@@ -1,0 +1,7 @@
+---
+title: Funding and remuneration
+---
+
+# Funding and remuneration
+
+{{< include _generated/funding.md >}}

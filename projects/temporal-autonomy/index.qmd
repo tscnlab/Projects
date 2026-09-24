@@ -1,0 +1,31 @@
+---
+title: Who controls their time?
+subtitle: Temporal autonomy and the ability to choose when we sleep, work, eat, exercise and experience daylight.
+slug: temporal-autonomy
+lang: en
+location: [Tübingen, Munich, Remote]
+formats: ["Master's thesis", Research internship, Erasmus+ research placement]
+primary-theme: Circadian health in society
+backgrounds: [Sociology, Public policy, Public health, Psychology, Geography]
+methods: [Literature synthesis, Qualitative interviews, Thematic analysis, Survey research]
+status: open
+disclosure: standard
+---
+
+## The question
+
+Advice about healthy daily routines often assumes that people can choose their schedules. How much control do people actually have over the timing of sleep, work, meals, exercise and daylight, and who has the least flexibility?
+
+## The project
+
+Investigate temporal autonomy as a social condition of circadian health. A focused study could examine how employment, caring responsibilities or institutional timetables enable and constrain everyday choices, distinguishing personal preferences from structural limits.
+
+## What you will do
+
+- Connect research on time use and social inequality with sleep and circadian health.
+- Develop a bounded literature study, qualitative interview study or survey, with the relevant approvals for participant research.
+- Analyse patterns and competing interpretations, documenting sampling, coding or statistical decisions transparently.
+
+## Possible scope
+
+A thesis could develop and answer a focused empirical question. A shorter placement could map concepts, evaluate existing measures or analyse a defined body of material. Experience with social research methods is welcome; neuroscience training is not required.

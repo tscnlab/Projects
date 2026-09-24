@@ -1,0 +1,43 @@
+---
+title: Two eyes, two clocks?
+subtitle: How does input from the two eyes contribute to our physiological response to light?
+slug: two-eyes
+lang: en
+location:
+- Tübingen
+- Munich
+formats:
+- Master's thesis
+- Research internship
+- Erasmus+ research placement
+primary-theme: Human photobiology
+backgrounds:
+- Neuroscience
+- Psychology
+- Medicine
+- Health science
+methods:
+- Human experiments
+- Visual neuroscience
+- Physiological measurement
+status: open
+disclosure: teaser
+---
+
+## The question
+
+Both eyes receive light, but how do their signals contribute to responses beyond vision? Investigating binocular input could refine our understanding of human circadian photoreception.
+
+## The project
+
+Contribute to a human photobiology project examining how information from the two eyes relates to physiological light responses. The study links controlled visual stimulation with quantitative measurements, without assuming that contributions from each eye simply add together.
+
+## What you will do
+
+- Read research on binocular processing and non-visual responses to light.
+- Assist with measurement checks and supervised experimental work, subject to approvals and training.
+- Analyse response variability and assess alternative explanations reproducibly.
+
+## Possible scope
+
+A thesis could develop a focused experimental and analytical question; an internship or Erasmus+ placement could address a bounded measurement or analysis component. Visual neuroscience experience is helpful but not required. Detailed stimulus arrangements are shared in discussion.

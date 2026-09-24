@@ -1,0 +1,47 @@
+---
+title: Can AI extract light interventions from papers?
+subtitle: Evaluating NLP and information extraction for research synthesis.
+slug: ai-light-interventions
+lang: en
+location:
+- Tübingen
+- Munich
+- Remote
+formats:
+- Master's thesis
+- Research internship
+- Erasmus+ research placement
+- Engineering project
+primary-theme: Circadian health in society
+backgrounds:
+- AI / NLP
+- Computer science
+- Data science
+- Epidemiology
+- Health science
+methods:
+- Natural language processing
+- Information extraction
+- Human evaluation
+- Evidence synthesis
+status: open
+disclosure: teaser
+---
+
+## The question
+
+Research reports describe light interventions in inconsistent ways. Could AI help researchers locate and organise relevant information while keeping uncertainty and source evidence visible?
+
+## The project
+
+Explore natural language processing and information extraction from scientific papers. The aim is to assess where automated assistance can support evidence synthesis and where human judgement remains necessary. Detailed extraction specifications and evaluation design will be developed within the project.
+
+## What you will do
+
+- Review information-extraction approaches and reporting challenges in light-intervention research.
+- Build a reproducible prototype for an agreed collection of accessible papers.
+- Evaluate outputs against human assessment, analysing omissions, unsupported statements and traceability to sources.
+
+## Possible scope
+
+A thesis or engineering project could combine prototype development and quantitative evaluation. A shorter placement could analyse a bounded error pattern or workflow component. Strong programming skills and interest in reliable scientific AI are useful.

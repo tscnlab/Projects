@@ -1,0 +1,46 @@
+---
+title: Who decides the time?
+subtitle: Politics and policy of daylight saving time and seasonal clock changes.
+slug: clock-change-policy
+lang: en
+location:
+- Tübingen
+- Munich
+- Remote
+formats:
+- Master's thesis
+- Research internship
+- Erasmus+ research placement
+primary-theme: Circadian health in society
+backgrounds:
+- Political science
+- Public policy
+- Sociology
+- Journalism
+- Communication
+methods:
+- Policy analysis
+- Document analysis
+- Comparative case studies
+- Stakeholder mapping
+status: open
+disclosure: standard
+---
+
+## The question
+
+How do governments decide what time people live by? Debates about daylight saving time bring scientific arguments into contact with economic interests, public preferences and institutional constraints.
+
+## The project
+
+Examine the politics of seasonal clock changes through a focused policy study. Trace how evidence and competing values enter decision-making in a defined jurisdiction or comparison, distinguishing policy proposals from decisions that have actually taken effect.
+
+## What you will do
+
+- Identify relevant policy documents, public consultations and institutional actors.
+- Develop a transparent document analysis or comparative case-study approach.
+- Analyse how arguments, interests and responsibilities shape the policy process.
+
+## Possible scope
+
+A thesis could investigate one policy process in depth or compare carefully selected cases. A shorter placement could map documents and actors. Political science, public policy or documentary research experience would fit well.

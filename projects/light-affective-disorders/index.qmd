@@ -1,0 +1,46 @@
+---
+title: Light exposure and affective disorders
+subtitle: A systematic review and meta-analysis.
+slug: light-affective-disorders
+lang: en
+location:
+- Tübingen
+- Munich
+- Remote
+formats:
+- Master's thesis
+- Research internship
+- Erasmus+ research placement
+primary-theme: Clinical translation
+backgrounds:
+- Psychology
+- Medicine
+- Neuroscience
+- Public health
+- Epidemiology
+methods:
+- Systematic review
+- Meta-analysis
+- Clinical evidence appraisal
+- Reproducible synthesis
+status: open
+disclosure: standard
+---
+
+## The question
+
+How is light exposure related to affective disorders, and what can different kinds of studies establish? Associations in everyday settings and effects of light interventions need to be interpreted with different assumptions.
+
+## The project
+
+Synthesise evidence for a clearly defined question about light and affective health. The review will distinguish study designs, examine how exposure and outcomes are measured, and avoid treating association as evidence of causation.
+
+## What you will do
+
+- Develop a protocol and search strategy, then screen studies using explicit criteria.
+- Extract exposure, population and outcome information and assess study quality or risk of bias.
+- Build a reproducible synthesis and, where justified, a meta-analysis with attention to heterogeneity.
+
+## Possible scope
+
+A thesis could complete a focused review and synthesis. A shorter placement could contribute a defined stage or analytical component. Interest in mental health, epidemiology or quantitative research methods would fit well.

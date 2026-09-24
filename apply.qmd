@@ -1,0 +1,7 @@
+---
+title: How to apply
+---
+
+# How to apply
+
+{{< include _generated/apply.md >}}

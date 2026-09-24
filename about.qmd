@@ -1,0 +1,7 @@
+---
+title: About the unit
+---
+
+# About the unit
+
+{{< include _generated/about.md >}}

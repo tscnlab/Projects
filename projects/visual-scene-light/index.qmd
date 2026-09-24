@@ -1,0 +1,47 @@
+---
+title: Can a visual scene predict circadian light exposure?
+subtitle: From images of an environment to estimates of biologically relevant light.
+slug: visual-scene-light
+lang: en
+location:
+- Tübingen
+- Munich
+- Remote
+formats:
+- Master's thesis
+- Research internship
+- Erasmus+ research placement
+- Engineering project
+primary-theme: Measuring the environment
+backgrounds:
+- Computer science
+- Data science
+- Engineering
+- AI / NLP
+- Neuroscience
+methods:
+- Computer vision
+- Computational modelling
+- Optical measurement
+- Model evaluation
+status: open
+disclosure: teaser
+---
+
+## The question
+
+A photograph describes how an environment looks, but can it help estimate the light that matters for circadian physiology? The challenge is to connect visual information with a physical exposure measure.
+
+## The project
+
+Investigate computational approaches that relate visual scenes to reference light measurements. The work will examine what image information supports prediction, how uncertainty should be represented, and where models may fail when conditions change.
+
+## What you will do
+
+- Read across computer vision, radiometry and circadian light measurement.
+- Build a documented image-analysis or modelling workflow for an agreed dataset.
+- Evaluate predictive error and robustness, and interpret the limitations of image-based estimates.
+
+## Possible scope
+
+A thesis or engineering project could develop and evaluate a modelling approach. A shorter placement could focus on data quality or a bounded comparison. Experience with quantitative programming and image processing is useful; specific technical implementation is discussed individually.

@@ -1,0 +1,47 @@
+---
+title: Circadian accessibility of workplaces
+subtitle: How well do working environments support different daily rhythms?
+slug: circadian-workplaces
+lang: en
+location:
+- Tübingen
+- Munich
+- Remote
+formats:
+- Master's thesis
+- Research internship
+- Erasmus+ research placement
+primary-theme: Circadian health in society
+backgrounds:
+- Architecture
+- Occupational health
+- Public health
+- HCI
+- Psychology
+- Sociology
+methods:
+- Workplace assessment
+- Document analysis
+- Qualitative interviews
+- Environmental measurement
+status: open
+disclosure: standard
+---
+
+## The question
+
+Can workplaces support circadian health for people with different schedules and needs? Access to daylight, opportunities for breaks and control over work timing may be unevenly distributed.
+
+## The project
+
+Investigate circadian accessibility as a question of both environment and organisation. A focused project could assess workplace guidance, examine a defined setting or explore experiences through interviews. The aim is to identify constraints and practical opportunities without assuming one schedule suits everyone.
+
+## What you will do
+
+- Connect evidence about light and daily timing with workplace design and occupational health.
+- Develop a bounded assessment, document study or interview approach, with approvals where needed.
+- Analyse environmental or organisational barriers and communicate findings with their limitations.
+
+## Possible scope
+
+A thesis could combine an evidence review with an empirical case study. A shorter placement could map guidance or one aspect of workplace access. Architecture, occupational health and social research perspectives are especially welcome.

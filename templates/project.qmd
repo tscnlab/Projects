@@ -1,0 +1,31 @@
+---
+title: 'Replace with a compelling research question'
+subtitle: 'Replace with a concise explanation of the focus.'
+slug: your-semantic-slug
+lang: en
+location: [Tübingen, Munich, Remote]
+formats: ["Master's thesis", Research internship, Erasmus+ research placement]
+primary-theme: Circadian health in society
+backgrounds: [Public health, Psychology]
+methods: [Evidence synthesis]
+status: paused
+disclosure: standard
+---
+
+## The question
+
+Replace this with the question and why it matters. Keep the whole body below 330 words; around 180-210 words normally works well for the one-page advert.
+
+## The project
+
+Describe the broad approach and the contribution. For sensitive projects, explain the methodological area without protocols, decisive parameters or novel implementation details.
+
+## What you will do
+
+- Describe a specific research activity.
+- Describe a second activity and the skills it develops.
+- Describe how the student will analyse, evaluate or communicate the work.
+
+## Possible scope
+
+Explain how a thesis or placement could be scoped and mention any specific background needed. Do not repeat standard expectations or funding text. Set status to open when the advert is ready to appear in the catalogue.

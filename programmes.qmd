@@ -1,0 +1,9 @@
+---
+title: Projects by academic background
+---
+
+# Projects by academic background
+
+The backgrounds below are suggestions for discovering projects, not formal approval by a university or degree programme. Check assessment, supervision and credit requirements with your home institution before agreeing a project. Related experience can be just as relevant as the name of your degree.
+
+{{< include _generated/programmes.md >}}

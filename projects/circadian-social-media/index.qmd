@@ -1,0 +1,47 @@
+---
+title: Circadian health on TikTok, Instagram and YouTube
+subtitle: How are sleep, light and daily rhythms communicated online?
+slug: circadian-social-media
+lang: en
+location:
+- Tübingen
+- Munich
+- Remote
+formats:
+- Master's thesis
+- Research internship
+- Erasmus+ research placement
+primary-theme: Circadian health in society
+backgrounds:
+- Media studies
+- Communication
+- Journalism
+- Public health
+- Psychology
+- Data science
+methods:
+- Content analysis
+- Digital media research
+- Qualitative coding
+- Science communication
+status: open
+disclosure: standard
+---
+
+## The question
+
+What do people encounter about circadian health on social media? Advice about sleep and light may combine accurate explanations, personal experience, commercial promotion and unsupported claims.
+
+## The project
+
+Analyse a bounded sample of public content from TikTok, Instagram or YouTube. Examine how health claims are framed and supported, while recognising the limits of platform access, sampling and what visible engagement can tell us.
+
+## What you will do
+
+- Develop an ethical, documented sampling approach that respects platform rules and research requirements.
+- Code claims, evidence references and communication styles, checking coding consistency.
+- Interpret patterns in relation to scientific evidence without identifying or targeting private individuals.
+
+## Possible scope
+
+A thesis could compare selected content or platforms. A shorter placement could focus on one corpus or coding question. Media research, public health and science communication perspectives are welcome; automated text analysis is optional.

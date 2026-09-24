@@ -1,0 +1,45 @@
+---
+title: What gets in the way of sleep?
+subtitle: Understanding sleep and circadian challenges among TUM students.
+slug: tum-student-sleep
+lang: en
+location:
+- Munich
+- Remote
+formats:
+- Master's thesis
+- Research internship
+- Erasmus+ research placement
+primary-theme: Circadian health in society
+backgrounds:
+- Health science
+- Psychology
+- Sociology
+- Public health
+- HCI
+methods:
+- Survey research
+- Qualitative interviews
+- Thematic analysis
+- Student health research
+status: open
+disclosure: standard
+---
+
+## The question
+
+What makes healthy sleep and daily routines difficult for TUM students? Academic demands, travel, paid work and social expectations may interact in ways that generic advice overlooks.
+
+## The project
+
+Investigate students’ experiences of sleep and circadian challenges in their everyday university context. A focused survey or qualitative study could identify perceived barriers, sources of flexibility and needs for support, without treating the student population as homogeneous.
+
+## What you will do
+
+- Review student-health research and refine an answerable question.
+- Develop or analyse a survey or interview study with appropriate approvals and participant safeguards.
+- Use transparent statistical or thematic analysis to connect findings to the university context.
+
+## Possible scope
+
+A thesis could address a defined empirical question. A shorter placement could review measures or analyse an agreed subset of material. Interest in student wellbeing, survey methods or qualitative research is valuable. On-site activity would be based in Munich.

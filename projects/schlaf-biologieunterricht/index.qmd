@@ -1,0 +1,45 @@
+---
+title: Schlaf und die innere Uhr im Biologieunterricht
+subtitle: Eine Analyse deutscher Lehrpläne und Unterrichtsmaterialien.
+slug: schlaf-biologieunterricht
+lang: de
+location:
+- Tübingen
+- Munich
+- Remote
+formats:
+- Master's thesis
+- Research internship
+- Erasmus+ research placement
+primary-theme: Circadian health in society
+backgrounds:
+- Biologie
+- Bildungswissenschaften
+- Lehramt
+- Psychologie
+- Gesundheitswissenschaften
+methods:
+- Dokumentenanalyse
+- Qualitative Inhaltsanalyse
+- Lehrplanforschung
+status: open
+disclosure: standard
+---
+
+## Die Frage
+
+Was lernen Schülerinnen und Schüler über Schlaf und die innere Uhr? Biologieunterricht kann helfen, tägliche Rhythmen zu verstehen und gesundheitsbezogene Aussagen kritisch einzuordnen.
+
+## Das Projekt
+
+Untersuchen Sie, wie Schlaf und zirkadiane Rhythmen in ausgewählten deutschen Lehrplänen, Schulbüchern oder Unterrichtsmaterialien vorkommen. Im Mittelpunkt stehen fachliche Genauigkeit, didaktische Einbettung und die Verbindung zum Alltag der Lernenden.
+
+## Ihre Aufgaben
+
+- Entwickeln Sie eine nachvollziehbare Auswahl von Dokumenten und begründen Sie den Untersuchungsrahmen.
+- Erarbeiten Sie ein Kategoriensystem und analysieren Sie Inhalte mit qualitativen oder ergänzenden quantitativen Verfahren.
+- Vergleichen Sie Darstellungen und leiten Sie begründete Ansatzpunkte für die Vermittlung ab.
+
+## Möglicher Umfang
+
+Eine Masterarbeit kann eine klar abgegrenzte vergleichende Analyse umfassen. Ein Forschungspraktikum oder Erasmus+ Forschungsaufenthalt kann sich auf eine Materialgruppe konzentrieren. Sehr gute Deutschkenntnisse sind erforderlich; Interesse an Biologiedidaktik oder Bildungsforschung ist hilfreich.

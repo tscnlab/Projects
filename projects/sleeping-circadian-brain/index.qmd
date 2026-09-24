@@ -1,0 +1,45 @@
+---
+title: Mapping the sleeping and circadian brain
+subtitle: A systematic review of human neuroimaging studies.
+slug: sleeping-circadian-brain
+lang: en
+location:
+- Tübingen
+- Munich
+- Remote
+formats:
+- Master's thesis
+- Research internship
+- Erasmus+ research placement
+primary-theme: Sleep, brain and sensory function
+backgrounds:
+- Neuroscience
+- Psychology
+- Medicine
+- Data science
+methods:
+- Systematic review
+- Neuroimaging
+- Evidence synthesis
+- Reproducible analysis
+status: open
+disclosure: standard
+---
+
+## The question
+
+What does human neuroimaging reveal about the brain across sleep and circadian time? Findings are spread across imaging methods, participant groups and study designs that are not always directly comparable.
+
+## The project
+
+Conduct a systematic review that distinguishes sleep-related effects from circadian timing and associated experimental influences. The review will map the evidence, assess methodological limitations and identify questions that existing studies leave unresolved.
+
+## What you will do
+
+- Develop a review protocol and reproducible search strategy, then screen studies against explicit eligibility criteria.
+- Extract study characteristics and findings, and assess the quality and comparability of evidence.
+- Produce a structured synthesis; consider quantitative synthesis only where the evidence supports it.
+
+## Possible scope
+
+A thesis could take a focused review through protocol development, searching, screening, extraction and synthesis. A shorter placement could address one stage or a narrower question. Familiarity with neuroimaging concepts is helpful; careful evidence appraisal is central.

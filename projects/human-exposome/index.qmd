@@ -1,0 +1,47 @@
+---
+title: Measuring the 24-hour human exposome
+subtitle: Measuring and comparing environmental exposures across the day.
+slug: human-exposome
+lang: en
+location:
+- Tübingen
+- Munich
+- Remote
+formats:
+- Master's thesis
+- Research internship
+- Erasmus+ research placement
+- Engineering project
+primary-theme: Measuring the environment
+backgrounds:
+- Health science
+- Epidemiology
+- Engineering
+- Data science
+- Public health
+methods:
+- Wearable sensing
+- Time-series analysis
+- Data harmonisation
+- Measurement validation
+status: open
+disclosure: standard
+---
+
+## The question
+
+Our days involve changing light, activity and other environmental conditions. How can we describe these exposures together, without losing their timing or the uncertainty in the measurements?
+
+## The project
+
+Develop reproducible ways to work with time-resolved environmental and behavioural measurements. The focus is on making streams of observations comparable and interpretable, rather than treating a whole day as a single average. Available data and sensors will determine the final scope.
+
+## What you will do
+
+- Review relevant exposure measures and the limitations of wearable sensing.
+- Build documented workflows for aligning data, detecting missingness and checking measurement quality.
+- Evaluate summaries or visualisations that preserve meaningful daily patterns.
+
+## Possible scope
+
+A thesis could compare measurement or analysis approaches. An engineering project or shorter placement could deliver a validated workflow for one sensor or data stream. Programming and comfort with quantitative data are especially useful.

@@ -1,0 +1,47 @@
+---
+title: Who gets daylight?
+subtitle: Inequalities in access to biologically relevant daytime light.
+slug: daylight-inequality
+lang: en
+location:
+- Tübingen
+- Munich
+- Remote
+formats:
+- Master's thesis
+- Research internship
+- Erasmus+ research placement
+primary-theme: Circadian health in society
+backgrounds:
+- Geography
+- Public health
+- Sociology
+- Architecture
+- Epidemiology
+- Data science
+methods:
+- Spatial analysis
+- Environmental assessment
+- Secondary-data analysis
+- Evidence synthesis
+status: open
+disclosure: standard
+---
+
+## The question
+
+Access to daytime light depends on more than personal choice. How do housing, work and neighbourhood environments shape opportunities for light exposure, and how might those opportunities be unequally distributed?
+
+## The project
+
+Study daylight access as an environmental and social question. A focused project could connect evidence about light exposure with spatial data, environmental characteristics or accounts of everyday routines. Available data will determine which inequalities can be examined responsibly.
+
+## What you will do
+
+- Review how daylight access and biologically relevant exposure are measured or represented.
+- Develop a reproducible analysis of a defined dataset or an evidence-based assessment of one setting.
+- Evaluate proxy measures, uncertainty and the limits of claims about individual exposure.
+
+## Possible scope
+
+A thesis could develop a spatial or social analysis. A shorter placement could assess data sources or a bounded measurement question. Geography, public health, architecture and quantitative social science are useful starting points.
