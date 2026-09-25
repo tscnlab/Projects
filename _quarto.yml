@@ -18,6 +18,8 @@ project:
     - python3 scripts/build.py finish
   resources:
     - assets/tscn-logo.png
+    - assets/favicon.png
+    - assets/social-preview.png
     - assets/site.css
     - assets/search.js
     - CNAME
@@ -25,9 +27,13 @@ project:
 website:
   title: Translational Sensory & Circadian Neuroscience Unit (MPS/TUM/TUMCREATE)
   site-url: https://join.tscnlab.org
+  favicon: assets/favicon.png
+  image: /assets/social-preview.png
   description: Student projects, jobs and external funding routes for research on light, sleep and circadian rhythms.
   search: false
   open-graph: true
+  twitter-card:
+    card-style: summary_large_image
 format:
   html:
     theme: none

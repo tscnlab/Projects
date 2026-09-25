@@ -146,6 +146,15 @@ individually. Background metadata never asserts formal programme approval.
 
 The footer displays `last_updated` from `shared/content.yml` in English or German, including in the PDFs. Update that ISO date (`YYYY-MM-DD`) when revising public content. It records the content update, not the time of a rebuild, so identical sources produce the same dated outputs.
 
+`_quarto.yml` sets `assets/favicon.png` as the browser icon and
+`assets/social-preview.png` as the default sharing image. Open Graph and large
+Twitter/X cards use each page's title with this image. A page can override the
+default using `image` in its QMD metadata. The favicon is the original supplied
+file. To update the social image, edit `templates/social-preview.html`, run
+`python scripts/render_social_preview.py` with the browser QA dependencies
+installed, and commit the resulting PNG. The same
+`PLAYWRIGHT_CHROMIUM_EXECUTABLE` setting used for browser QA is supported.
+
 The build checks the logo digest and downloads from the canonical source only
 if the vendored asset is missing. To update the logo, review the upstream asset,
 replace it without modification, and update the digest and provenance together.

@@ -275,7 +275,7 @@ def validate_output() -> None:
     # Public output is an allowlist, not a copy of the repository.
     root_files = {'index.html','student-projects.html','jobs.html','about.html','expectations.html','funding.html','apply.html','programmes.html','404.html','CNAME','robots.txt','sitemap.xml','search.json','.nojekyll'}
     expected_project_files = {f'projects/{p["slug"]}/{name}' for p in ps for name in ('index.html','advert.pdf')}
-    assets = {'assets/tscn-logo.png','assets/site.css','assets/search.js'}
+    assets = {'assets/tscn-logo.png','assets/favicon.png','assets/social-preview.png','assets/site.css','assets/search.js'}
     for path in OUT.rglob('*'):
         if path.is_symlink(): errors.append(f'Symlink in public output: {path}')
         if not path.is_file(): continue
