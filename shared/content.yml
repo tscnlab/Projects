@@ -1,5 +1,5 @@
 unit_name: Translational Sensory & Circadian Neuroscience Unit (MPS/TUM/TUMCREATE)
-last_updated: '2026-09-24'
+last_updated: '2026-09-25'
 site_url: https://join.tscnlab.org
 lab_url: https://www.tscnlab.org/
 mission_url: https://www.tscnlab.org/mission-statement
@@ -19,7 +19,7 @@ en:
   about_short: The Translational Sensory & Circadian Neuroscience Unit (MPS/TUM/TUMCREATE) studies light, sleep and circadian rhythms and their role in physiology, behaviour and health.
   expectations_short: You should be able to analyse data in R or Python, use Git and GitHub, and work reproducibly. Independent reading, careful documentation and increasing responsibility are expected. Previous sleep or circadian research experience is not generally required.
   funding_short: No salary or stipend from the research group unless explicitly stated. Master's theses are generally unpaid. Mention external funding or mobility programmes when applying.
-  application_short: Send a short motivation, CV, relevant skills, preferred project, dates, format and location. Mention external funding. Contact Prof. Manuel Spitschan using the address below.
+  application_short: Email Prof. Manuel Spitschan with a short motivation, CV, skills, project, dates, format, location and funding plans. Only email requests are considered. LinkedIn messages or comments are not considered, even for opportunities advertised there. Neither are phone calls.
   fit_note: Suggested backgrounds are not formal programme approval. Confirm requirements with your home institution.
   location_note: Location, timing and scope are agreed with the supervisor; availability depends on capacity and the work involved.
   enquiry: Enquiries welcome
@@ -106,6 +106,8 @@ en:
 
     [How to enquire about a project or fellowship](/apply.html) · [Job vacancies](/jobs.html)
   apply: |
+    **Only requests sent by email will be considered.** Messages or comments on LinkedIn will not be considered, even if the opportunity was advertised there. Phone calls will not be considered.
+
     For a student project or an externally funded research stay, email Prof. Manuel Spitschan using the addresses below. The information to include depends on the type of enquiry.
 
     ## Student projects and research internships
@@ -133,7 +135,7 @@ en:
 
     ## Job applications
 
-    See the [jobs page](/jobs.html) for current vacancies. For an advertised position, follow the application route and deadline in the vacancy notice.
+    See the [jobs page](/jobs.html) for current vacancies. For an advertised position, follow the email application instructions and deadline in the vacancy notice.
 
     ## Where to write
 
@@ -156,7 +158,7 @@ de:
   about_short: Die Translational Sensory & Circadian Neuroscience Unit (MPS/TUM/TUMCREATE) erforscht Licht, Schlaf und zirkadiane Rhythmen und deren Bedeutung für Physiologie, Verhalten und Gesundheit.
   expectations_short: Sie analysieren Daten in R oder Python, nutzen Git und GitHub und arbeiten reproduzierbar. Sie lesen eigenständig Fachliteratur, dokumentieren sorgfältig und übernehmen zunehmend Verantwortung. Schlaf- oder zirkadiane Vorkenntnisse sind in der Regel nicht erforderlich.
   funding_short: Ohne ausdrückliche Angabe kein Gehalt oder Stipendium der Forschungsgruppe. Masterarbeiten sind in der Regel unbezahlt. Nennen Sie bei der Bewerbung externe Förderung oder Mobilitätsprogramme.
-  application_short: Senden Sie eine kurze Motivation, Lebenslauf, relevante Kenntnisse sowie Projektwunsch, Zeitraum, Format und Ort. Nennen Sie externe Förderung. Kontaktieren Sie Prof. Manuel Spitschan über die unten angegebene Adresse.
+  application_short: 'Per E-Mail an Prof. Manuel Spitschan: Motivation, CV, Kenntnisse, Projekt, Zeitraum, Format, Ort und Förderung. Nur E-Mail-Anfragen werden berücksichtigt. LinkedIn-Nachrichten und -Kommentare, auch zu dort beworbenen Angeboten, sowie Telefonanrufe werden nicht berücksichtigt.'
   fit_note: Fachrichtungen sind Orientierungshilfen, keine Studiengangsanerkennung. Klären Sie Anforderungen mit Ihrer Hochschule.
   location_note: Ort, Zeitraum und Umfang werden mit der Betreuung vereinbart und hängen von Kapazitäten und Aufgaben ab.
   enquiry: Anfragen willkommen
