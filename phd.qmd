@@ -1,0 +1,50 @@
+---
+title: PhD opportunities
+description: Doctoral positions and structured programmes, with 2026 application deadlines and information about supervision and funding.
+---
+
+# PhD opportunities
+
+PhD positions in the Translational Sensory & Circadian Neuroscience Unit (MPS/TUM/TUMCREATE) are usually advertised under [Jobs](jobs.qmd). Structured doctoral programmes may provide another route.
+
+**Admission to a programme does not guarantee a position working with Prof. Manuel Spitschan.** A PhD in the unit depends on a suitable project, supervision capacity and confirmed funding. Funding arrangements differ between programmes, as outlined below.
+
+## Structured programmes: 2026 deadlines
+
+Dates checked on **26 September 2026** against the linked official pages. Check the programme's current instructions before applying; application deadlines and the year of entry are not necessarily the same.
+
+### TUM Medical Life Science and Technology (MLST)
+
+The programme publishes two annual application windows. The corresponding dates for 2026 are:
+
+- **Autumn: 15 October–15 November 2026, closing at 23:59 CET.** If you need a TUM Guest ID, request it between 1 October and **10 November 2026, 23:59 CET**.
+- **Spring: 15 April–15 May 2026, closing at 23:59 CEST (closed).** The Guest ID deadline was 10 May.
+
+Apply through DocGS. MLST does not provide its own funding: the research group must confirm funding, and final admission requires a laboratory position.
+
+[MLST application process, deadlines and funding](https://mgc.mh.tum.de/en/node/3909) · [TUM Guest ID](https://mgc.mh.tum.de/de/tum-guest-id)
+
+### Max Planck School of Cognition
+
+**Deadline: 1 December 2026, for entry in September 2027.** The application window opened on 1 September 2026. The same deadline applies to referees' submissions.
+
+This is a funded doctoral programme, but admission does not allocate a place in a particular laboratory. Submit the application through the school's online portal. Its instructions ask applicants to identify potential supervising fellows without contacting them before admission.
+
+[Cognition application instructions](https://cognition.maxplanckschools.org/en/application) · [Max Planck Schools application dates](https://www.maxplanckschools.org/en/application)
+
+### IMPRS for the Mechanisms of Mental Function and Dysfunction (IMPRS-MMFD)
+
+This programme is linked to the Graduate Training Centre of Neuroscience (GTC) in Tübingen. Its two entry routes have different deadlines:
+
+- **PhD route: 26 October 2026.** Applications opened on 14 September. Applicants must already be enrolled in the GTC doctoral programme; this is not an application for a vacant PhD position.
+- **Master's route: 1 December 2026.** Applications open on 27 October. This route is for eligible GTC master's students progressing towards doctoral research.
+
+For selected master's students, IMPRS funding covers the final master's semester and first PhD year; subsequent funding comes from the host laboratory. The doctoral route supports students already undertaking their PhD. Discuss the applicable funding arrangements with the programme and host.
+
+[IMPRS-MMFD 2026 deadlines](https://imprs-mmfd.tuebingen.mpg.de/4082/timeline) · [PhD application requirements](https://imprs-mmfd.tuebingen.mpg.de/3776/3-year-track) · [Master's route and funding](https://imprs-mmfd.tuebingen.mpg.de/3708/application-process)
+
+## Applying
+
+For an advertised PhD position, follow the vacancy notice. For a structured programme, follow its eligibility criteria and application process, including any rules about contacting supervisors. An email to the unit does not replace a programme application.
+
+[Current jobs](jobs.qmd) · [External funding](funding.qmd) · [How to apply](apply.qmd#phd-opportunities)

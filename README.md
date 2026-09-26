@@ -1,9 +1,10 @@
 # Translational Sensory & Circadian Neuroscience Unit (MPS/TUM/TUMCREATE)
 
-Student projects, jobs and external funding
+Student projects, jobs, PhD opportunities, research visits and collaborations
 
 The Quarto website for **join.tscnlab.org**. The homepage links to BSc/MSc projects
-and research internships, job vacancies, and external funding routes. The portfolio contains 27 student
+and research internships, jobs, PhD opportunities, research visits, wildcard
+collaborations and external funding routes. The portfolio contains 27 student
 research opportunities, each with an HTML page and a standalone one-page A4 PDF.
 The site is static: no application server, tracking, external font service or
 database is needed.
@@ -124,18 +125,27 @@ individually. Background metadata never asserts formal programme approval.
 
 ## Shared content and branding
 
-- `index.qmd`: the join homepage, with links to the three routes.
+- `index.qmd`: the join homepage, with links to the six routes.
 - `student-projects.qmd`: the BSc/MSc project and research internship catalogue.
 - `jobs.qmd`: vacancies and links to fellowship enquiries. The current vacancy
   status is in `shared/content.yml` under `en.jobs_status`, used on both the home
   and jobs pages. When adding a vacancy, update that status and include the role,
   location, deadline and official application link in `jobs.qmd`.
-
+- `phd.qmd`: structured doctoral programmes, source links and 2026 deadlines,
+  last checked on 26 September 2026. TUM MLST dates are derived from its published
+  annual windows; Cognition dates refer to 2027 entry. IMPRS-MMFD distinguishes
+  existing GTC doctoral students from its master's route. Recheck the official
+  pages when updating dates, and keep the verification date current. Programme
+  admission does not guarantee a funded position with Prof. Manuel Spitschan.
+- `research-visits.qmd`: short visits and links to DAAD and Erasmus+ funding.
+- `collaborations.qmd`: wildcard proposals, including artist, writer and architect
+  residencies, with a clear goal and work plan.
 - `shared/content.yml`: the full unit name, content update date, central expectations, funding, lab description,
   application guidance, contact addresses and English/German short versions.
 - `filters/layout.lua`: shared web page, project metadata and language-aware layout.
   Navigation follows Join!, About, Expectations, Opportunities, How to apply.
-  Jobs, BSc/MSc projects and research internships, and External funding are
+  Jobs, PhD opportunities, BSc/MSc projects and research internships, Research
+  visits, Wildcard collaborations and External funding are
   permanently visible under Opportunities, including on small screens and without JavaScript.
 - `assets/site.css` and `assets/search.js`: responsive presentation and progressive
   search. All cards and links remain available with JavaScript disabled.
@@ -215,7 +225,9 @@ python scripts/check_browser.py
 The script runs a temporary local server, checks every route at 1440, 390 and
 320 pixels, exercises search, location filtering, empty state, reset, URL
 persistence, downloads, German pages, keyboard access and no-JavaScript fallback.
-It also follows the homepage routes through jobs, funding and fellowship enquiries.
+It also follows the homepage routes through jobs, PhD opportunities, research
+visits, collaborations, funding and the corresponding enquiry guidance, including
+the DAAD and Erasmus+ funding anchors.
 It also exercises project cards, return navigation and programme search from
 local HTML files, and saves screenshots plus a report in `test-results/`. On Linux, use
 `python -m playwright install --with-deps chromium`. An existing Chrome executable

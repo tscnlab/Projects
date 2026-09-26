@@ -40,7 +40,10 @@ function Pandoc(doc)
     .. nav_link('expectations', '/expectations.html')
     .. '<li class="nav-group"><span class="nav-group-label">' .. esc(t.nav.opportunities) .. '</span><ul class="nav-children" role="list">'
     .. nav_link('jobs', '/jobs.html')
+    .. nav_link('phd', '/phd.html')
     .. nav_link('student_projects', '/student-projects.html')
+    .. nav_link('research_visits', '/research-visits.html')
+    .. nav_link('collaborations', '/collaborations.html')
     .. nav_link('funding', '/funding.html')
     .. '</ul></li>'
     .. nav_link('apply', '/apply.html')

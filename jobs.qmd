@@ -11,11 +11,15 @@ description: Current job vacancies and information about externally funded resea
 
 Future vacancies will be listed here with the role, location, application deadline and application instructions.
 
+## PhD opportunities
+
+PhD positions are usually advertised on this page. For structured doctoral programmes and their 2026 application deadlines, see [PhD opportunities](phd.qmd). Admission to a programme does not guarantee a funded position in the unit.
+
 ## Externally funded research
 
 If you are considering a fellowship or research grant, you can contact us to discuss your research idea and whether we could host the work. This can be discussed even when no job vacancies are advertised.
 
-[Funding and fellowships](funding.qmd) · [Enquiring about a research stay](apply.qmd#fellowships-and-research-visits)
+[Funding and fellowships](funding.qmd) · [Research visits](research-visits.qmd) · [Enquiring about a research stay](apply.qmd#fellowships-and-research-visits)
 
 ## Student projects
 

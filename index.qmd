@@ -1,6 +1,6 @@
 ---
 title: Join the unit
-description: Student projects, jobs and external funding routes at the Translational Sensory & Circadian Neuroscience Unit (MPS/TUM/TUMCREATE).
+description: Student projects, jobs, PhD opportunities, research visits and collaborations at the Translational Sensory & Circadian Neuroscience Unit (MPS/TUM/TUMCREATE).
 ---
 
 ::: {.home-hero}
@@ -13,7 +13,7 @@ TÜBINGEN · MUNICH · REMOTE
 ```
 
 ::: {.hero-copy}
-Information about joining the Translational Sensory & Circadian Neuroscience Unit (MPS/TUM/TUMCREATE) for a student project, a job or an externally funded research stay.
+Information about joining the Translational Sensory & Circadian Neuroscience Unit (MPS/TUM/TUMCREATE) for a student project, a job, doctoral research or a visit. We also consider other forms of collaboration.
 :::
 
 :::
@@ -33,6 +33,30 @@ BSc/MSc projects and research internships on light, sleep and circadian rhythms.
 {{< include _generated/jobs-status.md >}}
 
 [Job vacancies →](jobs.qmd)
+:::
+
+::: {.join-option}
+## PhD opportunities
+
+Doctoral positions are usually advertised under Jobs. Structured programmes offer additional routes, subject to supervision and funding.
+
+[PhD programmes and deadlines →](phd.qmd)
+:::
+
+::: {.join-option}
+## Research visits
+
+Short visits may be possible when the proposed research is mutually beneficial. Prospective visitors are encouraged to seek external funding.
+
+[Research visits →](research-visits.qmd)
+:::
+
+::: {.join-option}
+## Wildcard collaborations
+
+Other proposals, including an artist, writer or architect in residence, are considered with a clear goal and work plan.
+
+[Other forms of collaboration →](collaborations.qmd)
 :::
 
 ::: {.join-option}

@@ -46,6 +46,26 @@ def check():
             assert page.url.endswith('/apply.html#fellowships-and-research-visits')
             assert page.get_by_role('heading', name='Fellowships and research visits', exact=True).is_visible()
             page.goto(origin, wait_until='networkidle')
+            page.get_by_role('link', name='PhD programmes and deadlines').click()
+            assert page.locator('h1').inner_text() == 'PhD opportunities'
+            page.get_by_role('link', name='How to apply', exact=True).last.click()
+            assert page.url.endswith('/apply.html#phd-opportunities')
+            page.goto(origin, wait_until='networkidle')
+            page.locator('main').get_by_role('link', name='Research visits').click()
+            assert page.locator('h1').inner_text() == 'Research visits'
+            for name, anchor in [('DAAD', 'daad'), ('Erasmus+', 'erasmus')]:
+                page.locator('main').get_by_role('link', name=name, exact=True).click()
+                assert page.url.endswith('/funding.html#' + anchor)
+                assert page.locator('#' + anchor).is_visible()
+                page.go_back(wait_until='networkidle')
+            page.get_by_role('link', name='How to enquire about a research visit').click()
+            assert page.url.endswith('/apply.html#fellowships-and-research-visits')
+            page.goto(origin, wait_until='networkidle')
+            page.get_by_role('link', name='Other forms of collaboration').click()
+            assert page.locator('h1').inner_text() == 'Wildcard collaborations'
+            page.get_by_role('link', name='How to propose a wildcard collaboration').click()
+            assert page.url.endswith('/apply.html#wildcard-collaborations')
+            page.goto(origin, wait_until='networkidle')
             page.get_by_role('link', name='Browse projects').click()
             assert page.locator('h1').inner_text() == 'BSc/MSc projects and research internships'
             assert page.locator('.project-card:visible').count() == count
@@ -75,7 +95,7 @@ def check():
                 page.get_by_role('link', name='Download one-page PDF').click()
             assert download.value.suggested_filename.endswith('.pdf')
             assert download.value.failure() is None
-            routes = ['/','/student-projects.html','/jobs.html','/about.html','/expectations.html','/funding.html','/apply.html','/programmes.html','/404.html'] + [f'/projects/{p["slug"]}/' for p in projects()]
+            routes = ['/','/student-projects.html','/jobs.html','/phd.html','/research-visits.html','/collaborations.html','/about.html','/expectations.html','/funding.html','/apply.html','/programmes.html','/404.html'] + [f'/projects/{p["slug"]}/' for p in projects()]
             for width,height in [(1440,1000),(390,844),(320,740)]:
                 page.set_viewport_size({'width':width,'height':height})
                 for route in routes:
@@ -84,7 +104,7 @@ def check():
                     assert page.locator('main').count() == 1, route
                     # Every navigation link must be available without opening a menu.
                     nav_links = page.locator('.site-nav a')
-                    assert nav_links.count() == 7, route
+                    assert nav_links.count() == 10, route
                     for link in nav_links.all():
                         assert link.is_visible(), f'Hidden navigation link: {route}'
                         box = link.bounding_box()
@@ -98,7 +118,7 @@ def check():
                         assert page.locator('html').get_attribute('lang') == 'de'
                         assert page.get_by_role('link',name='Projektblatt als PDF herunterladen').count() == 1
                         assert page.get_by_role('heading', name='Die Frage',exact=True).count() == 1
-                    if (width,route) in [(390,'/'),(390,'/student-projects.html'),(390,'/jobs.html'),(390,'/funding.html'),(1440,'/funding.html'),(390,'/projects/smartphone-corneal-irradiance/'),(1440,'/projects/darkness-dose/'),(1440,'/projects/schlaf-gesellschaft-unterricht/')]:
+                    if (width,route) in [(390,'/'),(390,'/student-projects.html'),(390,'/jobs.html'),(390,'/funding.html'),(1440,'/funding.html'),(390,'/phd.html'),(1440,'/phd.html'),(320,'/phd.html'),(390,'/research-visits.html'),(390,'/collaborations.html'),(390,'/projects/smartphone-corneal-irradiance/'),(1440,'/projects/darkness-dose/'),(1440,'/projects/schlaf-gesellschaft-unterricht/')]:
                         name = route.strip('/').replace('/','-') or 'home'
                         page.screenshot(path=str(results/f'{width}-{name}.png'), full_page=True)
                 observations.append(f'{len(routes)} routes checked at {width} × {height}')
@@ -106,6 +126,10 @@ def check():
             # No-JS users still receive the complete catalogue and working links.
             context = browser.new_context(java_script_enabled=False)
             plain = context.new_page(); plain.goto(origin)
+            for name in ['PhD opportunities', 'Research visits', 'Wildcard collaborations']:
+                plain.get_by_role('navigation').get_by_role('link', name=name, exact=True).click()
+                assert plain.locator('h1').inner_text() == name
+            plain.goto(origin)
             plain.get_by_role('link', name='Browse projects').click()
             assert plain.locator('.project-card').count() == count
             assert plain.locator('noscript').is_visible()
@@ -132,7 +156,7 @@ def check():
                 assert offline.locator('.project-body h2').count() == 4
                 offline.locator('.back-link').click()
                 assert offline.url == catalogue_file
-            for filename, heading in [('about.html','About the unit'),('expectations.html','General expectations'),('funding.html','Funding and fellowships'),('jobs.html','Jobs')]:
+            for filename, heading in [('about.html','About the unit'),('expectations.html','General expectations'),('funding.html','Funding and fellowships'),('jobs.html','Jobs'),('phd.html','PhD opportunities'),('research-visits.html','Research visits'),('collaborations.html','Wildcard collaborations')]:
                 offline.goto((OUT / filename).as_uri())
                 assert offline.locator('h1').inner_text() == heading
                 offline.get_by_role('navigation').get_by_role('link',name='BSc/MSc projects and research internships',exact=True).click()
@@ -146,7 +170,7 @@ def check():
             observations.append(f'{count} project cards and return links checked using file:// URLs')
             offline.close(); browser.close()
         assert not failures, '\n'.join(failures)
-        report = {'result':'PASS','projects':count,'layout_checks':observations,'behaviour':['Homepage routes to student projects, jobs and fellowship enquiries','Search by hidden metadata','Search + location intersection','Empty state + reset','URL persistence','Keyboard skip link','PDF download','German language','No-JavaScript catalogue','Local HTML navigation and programme search'],'browser_errors':failures}
+        report = {'result':'PASS','projects':count,'layout_checks':observations,'behaviour':['Homepage routes to student projects, jobs, PhD opportunities, visits and collaborations','Research visit links to DAAD and Erasmus+ funding','Search by hidden metadata','Search + location intersection','Empty state + reset','URL persistence','Keyboard skip link','PDF download','German language','No-JavaScript catalogue and opportunity navigation','Local HTML navigation and programme search'],'browser_errors':failures}
         (results/'browser-report.json').write_text(json.dumps(report,indent=2)+'\n')
         print(json.dumps(report,indent=2))
     finally:

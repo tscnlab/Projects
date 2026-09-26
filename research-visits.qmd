@@ -1,0 +1,20 @@
+---
+title: Research visits
+description: Short research visits, mutually beneficial projects and external funding through DAAD, Erasmus+ and other programmes.
+---
+
+# Research visits
+
+Short research visits to the Translational Sensory & Circadian Neuroscience Unit (MPS/TUM/TUMCREATE) may be possible when they are mutually beneficial. We consider whether the proposed work fits the unit's research, can be carried out in the available time, and has appropriate support.
+
+## Funding a visit
+
+We encourage prospective visitors to apply for external funding, for example through [DAAD](funding.qmd#daad). [Erasmus+](funding.qmd#erasmus) may also support eligible student or doctoral placements through the visitor's home institution. Eligibility, supported duration and deadlines depend on the scheme.
+
+See [External funding](funding.qmd) for these and other routes. Contact us before submitting a funding application that names the unit as a host, so that we can agree on the work and hosting arrangements.
+
+## Proposing a visit
+
+Outline the research question, what you hope to achieve together, your relevant experience and the proposed dates and duration. Include any funding you hold or plan to apply for.
+
+[How to enquire about a research visit](apply.qmd#fellowships-and-research-visits)

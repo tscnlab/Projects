@@ -273,7 +273,7 @@ def validate_output() -> None:
                 if doc and not doc.find(id=unquote(url.fragment)) and not doc.find(attrs={'name': unquote(url.fragment)}):
                     errors.append(f'Broken anchor: {path.relative_to(OUT)} -> {value}')
     # Public output is an allowlist, not a copy of the repository.
-    root_files = {'index.html','student-projects.html','jobs.html','about.html','expectations.html','funding.html','apply.html','programmes.html','404.html','CNAME','robots.txt','sitemap.xml','search.json','.nojekyll'}
+    root_files = {'index.html','student-projects.html','jobs.html','phd.html','research-visits.html','collaborations.html','about.html','expectations.html','funding.html','apply.html','programmes.html','404.html','CNAME','robots.txt','sitemap.xml','search.json','.nojekyll'}
     expected_project_files = {f'projects/{p["slug"]}/{name}' for p in ps for name in ('index.html','advert.pdf')}
     assets = {'assets/tscn-logo.png','assets/favicon.png','assets/social-preview.png','assets/site.css','assets/search.js'}
     for path in OUT.rglob('*'):

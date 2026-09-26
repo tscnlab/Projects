@@ -5,6 +5,9 @@ project:
     - index.qmd
     - student-projects.qmd
     - jobs.qmd
+    - phd.qmd
+    - research-visits.qmd
+    - collaborations.qmd
     - about.qmd
     - expectations.qmd
     - funding.qmd
@@ -29,7 +32,7 @@ website:
   site-url: https://join.tscnlab.org
   favicon: assets/favicon.png
   image: /assets/social-preview.png
-  description: Student projects, jobs and external funding routes for research on light, sleep and circadian rhythms.
+  description: Student projects, jobs, PhD opportunities, research visits and collaborations on light, sleep and circadian rhythms.
   search: false
   open-graph: true
   twitter-card:

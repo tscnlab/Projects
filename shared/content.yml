@@ -1,5 +1,5 @@
 unit_name: Translational Sensory & Circadian Neuroscience Unit (MPS/TUM/TUMCREATE)
-last_updated: '2026-09-25'
+last_updated: '2026-09-26'
 site_url: https://join.tscnlab.org
 lab_url: https://www.tscnlab.org/
 mission_url: https://www.tscnlab.org/mission-statement
@@ -32,7 +32,10 @@ en:
     expectations: Expectations
     opportunities: Opportunities
     jobs: Jobs
+    phd: PhD opportunities
     student_projects: BSc/MSc projects and research internships
+    research_visits: Research visits
+    collaborations: Wildcard collaborations
     funding: External funding
     apply: How to apply
   about: |
@@ -40,7 +43,7 @@ en:
 
     Student projects can be based in Tübingen, Munich or remotely, depending on the work involved. Scope, location and supervision are agreed individually.
 
-    This site also lists [job vacancies](/jobs.html) and [external funding routes](/funding.html) for researchers interested in joining the unit. If you are considering a fellowship or research visit, contact us to discuss the research and a possible host arrangement.
+    This site also lists [job vacancies](/jobs.html), [PhD opportunities](/phd.html) and [external funding routes](/funding.html). We consider [short research visits](/research-visits.html) and [other forms of collaboration](/collaborations.html), including residencies, when there is a suitable proposal and mutual benefit.
 
     ## Research approach
 
@@ -48,6 +51,8 @@ en:
 
     [Student projects](/student-projects.html) · [General expectations](/expectations.html) · [How to apply](/apply.html)
   expectations: |
+    The expectations below apply to [student projects and research internships](/student-projects.html). Requirements for jobs and doctoral programmes are specified in their calls; research visits and other collaborations are agreed individually.
+
     These projects address open research questions rather than predefined teaching exercises. Students are expected to work independently, document decisions and take increasing responsibility, with feedback from their supervisor.
 
     You should already be able to:
@@ -71,6 +76,8 @@ en:
     If you would like us to host a funded project, [contact us with your research idea and the programme you have in mind](/apply.html#fellowships-and-research-visits). We will need to discuss scientific fit, supervision and resources before agreeing to support an application. Each funder sets its own eligibility rules, calls and deadlines; use the official links below to check them.
 
     ## Doctoral research and research visits
+
+    For structured doctoral programmes and their 2026 deadlines, see [PhD opportunities](/phd.html). For a shorter stay, see [Research visits](/research-visits.html). Programme admission and funding for a position in the unit need to be confirmed separately.
 
     ### DAAD
 
@@ -96,9 +103,9 @@ en:
 
     Students may have support through scholarships, their home university or mobility programmes. Mention any proposed funding when enquiring about a project.
 
-    ### Erasmus+
+    ### Erasmus+ {#erasmus}
 
-    [Erasmus+ traineeships](https://erasmus-plus.ec.europa.eu/opportunities/individuals/students/traineeships-abroad-for-students) can support eligible students and recent graduates undertaking a placement abroad. Ask your home university's international or Erasmus+ office about eligibility, funding and application procedures. The research placement and any required learning agreement need to be agreed with the host.
+    [Erasmus+ traineeships](https://erasmus-plus.ec.europa.eu/opportunities/individuals/students/traineeships-abroad-for-students) can support eligible students, including doctoral candidates, and recent graduates undertaking a placement abroad. Ask your home university's international or Erasmus+ office about eligibility, supported duration, funding and application procedures. The research placement and any required learning agreement need to be agreed with the host.
 
     ### Centrally organised placements
 
@@ -108,7 +115,9 @@ en:
   apply: |
     **Only requests sent by email will be considered.** Messages or comments on LinkedIn will not be considered, even if the opportunity was advertised there. Phone calls will not be considered.
 
-    For a student project or an externally funded research stay, email Prof. Manuel Spitschan using the addresses below. The information to include depends on the type of enquiry.
+    This applies to enquiries made directly to the unit. Applications to structured doctoral programmes, funding schemes or centrally organised placements must follow the programme's own process.
+
+    Email Prof. Manuel Spitschan using the addresses below. The information to include depends on the type of enquiry.
 
     ## Student projects and research internships
 
@@ -122,9 +131,13 @@ en:
 
     Please read the [general expectations](/expectations.html) and [student funding information](/funding.html#student-projects-and-placements). Confirm degree-credit requirements with your home institution. For CaCTüS or TUM PREP, follow the programme's application procedure.
 
+    ## PhD opportunities
+
+    PhD positions are usually advertised under [Jobs](/jobs.html). Follow the instructions in the vacancy notice. The [PhD opportunities page](/phd.html) also lists structured programmes and their 2026 deadlines. Apply through the relevant programme's process and observe its rules on contacting potential supervisors. Programme admission does not guarantee a funded position with Prof. Manuel Spitschan.
+
     ## Fellowships and research visits
 
-    If you are considering [external funding](/funding.html), or already hold a fellowship and are seeking a host, include:
+    For a [short research visit](/research-visits.html) or a fellowship, including enquiries about [external funding](/funding.html), include:
 
     - A **short research outline** and how it relates to the unit's work.
     - Your **CV**, current institution and career stage, with relevant publications or other work where applicable.
@@ -132,6 +145,10 @@ en:
     - Your preferred **host location, start date and duration**, and any facilities or other support the project would need.
 
     Contact us before submitting an application that names us as a host, allowing time to discuss the proposal and any institutional requirements. Hosting depends on scientific fit, supervision and resources; an enquiry does not constitute a commitment to host or fund the work.
+
+    ## Wildcard collaborations
+
+    For [other forms of collaboration](/collaborations.html), such as an artist, writer or architect in residence, send a short proposal with a **clear goal and work plan**. Explain its connection to the unit's research, your relevant experience or examples of work, the planned activities and outcome, and an indicative timetable. Mention any funding you have or intend to seek.
 
     ## Job applications
 
@@ -170,6 +187,9 @@ de:
     expectations: Erwartungen
     opportunities: Möglichkeiten
     jobs: Stellen
+    phd: Promotionsmöglichkeiten
     student_projects: BSc/MSc-Projekte und Forschungspraktika
+    research_visits: Forschungsaufenthalte
+    collaborations: Wildcard-Kooperationen
     funding: Externe Finanzierung
     apply: Bewerbung
